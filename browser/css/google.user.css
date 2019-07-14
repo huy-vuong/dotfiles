@@ -1,0 +1,14 @@
+/*
+ * URLs starting with: https://www.google.com
+ * URLs starting with: http://www.google.com
+ */
+
+.g, body, html, input, .std, h1 
+{
+  font-family: Roboto, Arial, sans-serif;
+}
+
+.gsfi, .lst 
+{
+  font-family: Roboto, Arial, sans-serif;
+}

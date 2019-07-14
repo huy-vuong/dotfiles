@@ -1,0 +1,42 @@
+/*
+ * URLs on the domain: amazon.com
+ */
+
+body, 
+#nav-xshop, 
+a.nav-a, 
+a.nav-a:link, 
+a.nav-a:visited, 
+.nav-packard-glow, 
+#nav-tools, 
+.nav-truncate,
+#navbar,
+.nav-line-1,
+.nav-line-2,
+.nav-line-3,
+.nav-line-4,
+#nav-main,
+#navbar .nav-tools .nav-truncate .nav-line-1,
+#navbar .nav-tools .nav-truncate .nav-line-3,
+#nav-tools .nav-a-2 .nav-line-1, 
+#nav-tools .nav-a-2 .nav-line-2, 
+#nav-tools .nav-a-2 .nav-line-3, 
+#nav-tools .nav-a-2 .nav-line-4, 
+#nav-xshop .nav-a-2 .nav-line-1, 
+#nav-xshop .nav-a-2 .nav-line-2, 
+#nav-xshop .nav-a-2 .nav-line-3, 
+#nav-xshop .nav-a-2 .nav-line-4, 
+#navbar .nav-tools .nav-a-2 .nav-line-1, 
+#navbar .nav-tools .nav-a-2 .nav-line-2, 
+#navbar .nav-tools .nav-a-2 .nav-line-3, 
+#navbar .nav-tools .nav-a-2 .nav-line-4,
+#nav-xshop .nav-a,
+.nav-packard-glow #nav-global-location-slot .nav-a-2 .nav-line-1,
+.nav-packard-glow #nav-global-location-slot .nav-a-2 .nav-line-2,
+.navFooterColHead,
+#navFooter a:link, #navFooter a:visited,
+#navFooter a, #navFooter span,
+div.navFooterLine 
+{
+  font-family: "Amazon Ember", Arial, sans-serif;
+}

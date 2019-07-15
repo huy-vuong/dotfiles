@@ -3,12 +3,12 @@
  * URLs starting with: http://www.google.com
  */
 
-.g, body, html, input, .std, h1 
+.g, body, html, input, .std, h1
 {
   font-family: Roboto, Arial, sans-serif;
 }
 
-.gsfi, .lst 
+.gsfi, .lst
 {
   font-family: Roboto, Arial, sans-serif;
 }

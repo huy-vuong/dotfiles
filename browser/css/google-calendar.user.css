@@ -1,76 +1,83 @@
-/*
- * URLs on the domain: calendar.google.com
- */
+/* ==UserStyle==
+@name           Google Calendar
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Replaces the day numbers in the week view for Google Calendar.
+@author         huy-vuong
+==/UserStyle== */
 
-/* Day of week. */
-.qAeuG,
-.qAeuG.pCcXPe,
-.qAeuG.N4XV7d
+@-moz-document domain("calendar.google.com")
 {
-  text-transform: none;
-  font-family: 'Google Sans', 'Roboto', 'Helvetica', 'Arial', sans-serif;
-  font-size: 13px;
-  font-weight: 400;
-  letter-spacing: 0.5px;
-  margin-top: 6px;
-  margin-bottom: 2px;
-}
+  /* Day of week. */
+  .qAeuG,
+  .qAeuG.pCcXPe,
+  .qAeuG.N4XV7d
+  {
+    text-transform: none;
+    font-family: 'Google Sans', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    margin-top: 6px;
+    margin-bottom: 2px;
+  }
 
-/* Day of month number. */
-.rpCPrc
-{
-  text-align: left;
-}
+  /* Day of month number. */
+  .rpCPrc
+  {
+    text-align: left;
+  }
 
-/* Not current day. */
-.KSxb4d
-{
-  font-feature-settings: normal;
-  font-size: 42px;
-  font-variant: none;
-  margin-left: 2px;
-  margin-right: 0;
-  letter-spacing: 0;
-}
+  /* Not current day. */
+  .KSxb4d
+  {
+    font-feature-settings: normal;
+    font-size: 42px;
+    font-variant: none;
+    margin-left: 2px;
+    margin-right: 0;
+    letter-spacing: 0;
+  }
 
-/* Current day. */
-.KSxb4d.F262Ye,
-body.geSgge .KSxb4d.F262Ye
-{
-  background-color: rgba(0, 0, 0, 0);
-  color: #1a73e8;
-  font-feature-settings: normal;
-  font-size: 42px;
-  font-variant: none;
-  margin-left: 2px;
-  margin-right: 0;
-  letter-spacing: 0;
-}
+  /* Current day. */
+  .KSxb4d.F262Ye,
+  body.geSgge .KSxb4d.F262Ye
+  {
+    background-color: rgba(0, 0, 0, 0);
+    color: #1a73e8;
+    font-feature-settings: normal;
+    font-size: 42px;
+    font-variant: none;
+    margin-left: 2px;
+    margin-right: 0;
+    letter-spacing: 0;
+  }
 
-/* Not current day hover circle. */
-.KSxb4d.RKLVef:hover,
-body.geSgge .KSxb4d.RKLVef:hover,
-.KSxb4d.N4XV7d.RKLVef:hover,
-body.geSgge .KSxb4d.N4XV7d.RKLVef:hover
-{
-  background-color: rgba(0, 0, 0, 0);
-}
+  /* Not current day hover circle. */
+  .KSxb4d.RKLVef:hover,
+  body.geSgge .KSxb4d.RKLVef:hover,
+  .KSxb4d.N4XV7d.RKLVef:hover,
+  body.geSgge .KSxb4d.N4XV7d.RKLVef:hover
+  {
+    background-color: rgba(0, 0, 0, 0);
+  }
 
-/* Current day hover circle. */
-.KSxb4d.F262Ye.RKLVef:hover,
-body.geSgge .KSxb4d.F262Ye.RKLVef:hover
-{
-  background-color: rgba(0, 0, 0, 0);
-}
+  /* Current day hover circle. */
+  .KSxb4d.F262Ye.RKLVef:hover,
+  body.geSgge .KSxb4d.F262Ye.RKLVef:hover
+  {
+    background-color: rgba(0, 0, 0, 0);
+  }
 
-/* Current time marking (circle). */
-.h11RHc
-{
-  background: #1a73e8;
-}
+  /* Current time marking (circle). */
+  .h11RHc
+  {
+    background: #1a73e8;
+  }
 
-/* Current time marking (line). */
-.H3tRZe
-{
-  border-top: #1a73e8 solid 2px;
+  /* Current time marking (line). */
+  .H3tRZe
+  {
+    border-top: #1a73e8 solid 2px;
+  }
 }

@@ -1,15 +1,20 @@
-/*
- * URLs on the domain: github.com
- */
+/* ==UserStyle==
+@name           GitHub
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Change body and monospace fonts on GitHub.
+@author         huy-vuong
+==/UserStyle== */
 
-body, .markdown-body
+@-moz-document domain("github.com")
 {
-  font-family: '-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Roboto,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol'   
-}
+  body, .markdown-body
+  {
+    font-family: '-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Roboto,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol';
+  }
 
-/* No Roboto Mono on Chrome OS!
-code, pre, tt 
-{
-  font-family: '"Roboto Mono",SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace'
+  code, pre, tt
+  {
+    font-family: "Roboto Mono", "SFMono-Regular", "Cousine", "Consolas", "Liberation Mono", "Menlo", "Courier", monospace;
+  }
 }
-*/

@@ -1,8 +1,15 @@
-/*
- * URLs starting with: https://www.messenger.com
- */
+/* ==UserStyle==
+@name           Facebook Messenger
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Use Roboto for Facebook Messenger's body fonts instead of Arial.
+@author         Me
+==/UserStyle== */
 
-body, button, input, label, select, td, textarea, ._z4_ 
+@-moz-document domain("www.messenger.com")
 {
-  font-family: "Roboto", "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
+  body, button, input, label, select, td, textarea, ._z4_
+  {
+    font-family: "Roboto", "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
+  }
 }

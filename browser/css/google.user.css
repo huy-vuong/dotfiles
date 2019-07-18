@@ -1,14 +1,20 @@
-/*
- * URLs starting with: https://www.google.com
- * URLs starting with: http://www.google.com
- */
+/* ==UserStyle==
+@name           Google
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Use Roboto for Google's body fonts instead of Arial.
+@author         huy-vuong
+==/UserStyle== */
 
-.g, body, html, input, .std, h1
+@-moz-document domain("www.google.com")
 {
-  font-family: Roboto, Arial, sans-serif;
-}
+  .g, body, html, input, .std, h1
+  {
+    font-family: Roboto, Arial, sans-serif;
+  }
 
-.gsfi, .lst
-{
-  font-family: Roboto, Arial, sans-serif;
+  .gsfi, .lst
+  {
+    font-family: Roboto, Arial, sans-serif;
+  }
 }

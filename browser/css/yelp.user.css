@@ -1,9 +1,16 @@
-/*
- * URLs on the domain: yelp.com
- */
+/* ==UserStyle==
+@name           Yelp
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Use Roboto for Yelp's body fonts instead of Arial.
+@author         huy-vuong
+==/UserStyle== */
 
-body,
-.text__373c0__2pB8f
+@-moz-document domain("yelp.com")
 {
-  font-family: Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  body,
+  .text__373c0__2pB8f
+  {
+    font-family: "Roboto", 'Helvetica Neue', "Helvetica", "Arial", sans-serif;
+  }
 }

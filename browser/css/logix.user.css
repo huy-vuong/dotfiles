@@ -1,0 +1,74 @@
+/* ==UserStyle==
+@name           Logix
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Styling for the Logix website to add colours to numbers and monospace fonts.
+@author         huy-vuong
+==/UserStyle== */
+
+@-moz-document domain("logixbanking.com") {
+
+  /* SITE-WIDE */
+
+  #MasterHeaderMenuMain {
+    font-family: "SF Pro Text", "Roboto" !important;
+  }
+
+  body {
+    font-family: "SF Pro Text", "Roboto" !important;
+  }
+
+  html {
+    font-family: "SF Pro Text", "Roboto" !important;
+  }
+
+  .Subtle {
+    font-family: "SF Pro Text", "Roboto" !important;
+  }
+
+  .Header > td {
+    font-weight: 800 !important;
+  }
+
+  /* ACCOUNTS */
+
+  /* Account Number */
+  .Data > .Word:nth-child(4) > a {
+    font-family: "SF Mono", "Roboto Mono", "Cousine";
+  }
+
+  /* Type */
+  .Data > .Word:nth-child(3) > span {
+    font-weight: bold;
+    font-family: "SF Mono", "Roboto Mono", "Cousine";
+  }
+
+  /* Subtotals */
+  .Total > .Number {
+    font-weight: bold;
+    font-family: "SF Mono", "Roboto Mono", "Cousine";
+  }
+
+  /* TRANSACTIONS */
+
+  /* Date */
+  .Data > .Word:nth-child(2) > a {
+    font-family: "SF Mono", "Roboto Mono", "Cousine";
+  }
+
+  /* Debit */
+  .Data > .Number:nth-child(7) > span > a {
+    color: #990000;
+  }
+
+  /* Credit */
+  .Data > .Number:nth-child(8) > span > a {
+    color: #669933;
+  }
+
+  /* Numeric Fields */
+  .Data > .Number {
+    font-family: "SF Mono", "Roboto Mono", "Cousine";
+  }
+
+}

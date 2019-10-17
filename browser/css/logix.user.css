@@ -58,7 +58,7 @@
 
   /* Debit */
   .Data > .Number:nth-child(7) > span > a {
-    color: #990000;
+    color: rgb(255, 96, 58);
   }
 
   /* Credit */

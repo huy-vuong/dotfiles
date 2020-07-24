@@ -116,7 +116,7 @@ alias gs='git status'
 alias gd='git diff'
 alias gc='git diff --cached'
 alias gl='git log'
-alias gh='git show'
+alias gw='git show'
 alias gp='git pull'
 
 # Shortcuts

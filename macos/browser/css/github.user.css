@@ -1,0 +1,20 @@
+/* ==UserStyle==
+@name           GitHub
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Change body and monospace fonts on GitHub.
+@author         huy-vuong
+==/UserStyle== */
+
+@-moz-document domain("github.com")
+{
+  body, .markdown-body
+  {
+    font-family: '-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Roboto,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol';
+  }
+
+  code, pre, tt
+  {
+    font-family: "Roboto Mono", "SFMono-Regular", "Cousine", "Consolas", "Liberation Mono", "Menlo", "Courier", monospace;
+  }
+}

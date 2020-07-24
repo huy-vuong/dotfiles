@@ -141,8 +141,8 @@ alias code='code-insiders'
 alias e='emacs'
 
 # Search
-alias a='ag'
-alias ai='ag -i'
+alias r='rg'
+alias ri='rg -i'
 
 # Android
 alias adb='~/Library/Android/sdk/platform-tools/adb'

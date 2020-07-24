@@ -110,6 +110,7 @@ export LSCOLORS=ExFxCxDxBxegedabagacad
 alias l='exa -lh --git'
 alias ll='exa -lah --git'
 alias l1='exa -1ah'
+alias fd='fdfind'
 
 # Git
 alias gs='git status'

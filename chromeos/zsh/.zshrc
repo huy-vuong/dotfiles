@@ -156,7 +156,7 @@ export PYSPARK_PYTHON=python3
 export PYSPARK_DRIVER_PYTHON=ipython3
 export PYSPARK_DRIVER_PYTHON_OPTS='notebook'
 alias python='python3'
-alias jupyter='/anaconda3/bin/jupyter'
+alias jupyter='~/.local/bin/jupyter'
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="~/.sdkman"

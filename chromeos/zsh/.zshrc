@@ -88,6 +88,7 @@ export PATH="${PATH}:/home/silare/Development/flutter/bin"
 
 git config --global user.name 'Huy Vuong'
 git config --global user.email 'huy-vuong@users.noreply.github.com'
+git config --global credential.helper cache
 export VISUAL='emacs -nw'
 export EDITOR="$VISUAL"
 

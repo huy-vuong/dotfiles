@@ -107,8 +107,9 @@ export CLICOLOR=1
 export LSCOLORS=ExFxCxDxBxegedabagacad
 
 # Navigation
-alias l='ls -lh'
-alias ll='ls -lah'
+alias l='exa -lh --git'
+alias ll='exa -lah --git'
+alias l1='exa -1ah'
 
 # Git
 alias gs='git status'

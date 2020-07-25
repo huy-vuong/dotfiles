@@ -131,6 +131,9 @@ alias nd='npm i --save-dev'
 alias ng='npm i -g'
 alias no='npm outdated'
 
+# Weather
+alias wt="curl -s 'wttr.in' | grep -v 'New feature' | grep -v 'Follow'"
+
 # Shortcuts
 alias ding='echo -en "\a"'
 alias doc='cd ~/Documents/'

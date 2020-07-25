@@ -106,6 +106,9 @@ export SUDO_RPS1=" %{$fg[blue]%}%~%{$reset_color%}"
 export CLICOLOR=1
 export LSCOLORS=ExFxCxDxBxegedabagacad
 
+# Emacs
+alias emacs='emacs -nw'
+
 # Navigation
 alias l='exa -lh --git'
 alias ll='exa -lah --git'

@@ -125,6 +125,12 @@ alias gll='git log --pretty=oneline'
 alias gw='git show'
 alias gp='git pull'
 
+# npm
+alias ni='npm i'
+alias nd='npm i --save-dev'
+alias ng='npm i -g'
+alias no='npm outdated'
+
 # Shortcuts
 alias ding='echo -en "\a"'
 alias doc='cd ~/Documents/'

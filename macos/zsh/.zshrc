@@ -166,6 +166,13 @@ alias fastboot='~/Library/Android/sdk/platform-tools/fastboot'
 
 # Flutter
 alias f='flutter'
+alias fa='flutter analyze'
+alias fat='flutter analyze && flutter test'
+alias fb='flutter pub run build_runner build --delete-conflicting-outputs'
+alias fd='flutter build apk --debug'
+alias fpg='flutter pub get'
+alias fpo='flutter pub outdated'
+alias ft='flutter test'
 
 # Jupyter
 export PYTHONPATH=$SPARK_HOME/python/:$PYTHONPATH

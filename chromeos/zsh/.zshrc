@@ -84,7 +84,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-export PATH="${PATH}:/home/silare/Development/flutter/bin"
+export PATH="${PATH}:${HOME}/Development/flutter/bin"
 
 git config --global user.name 'Huy Vuong'
 git config --global user.email 'huy-vuong@users.noreply.github.com'

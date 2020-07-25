@@ -102,7 +102,7 @@ zstyle ':vcs_info:git:*' formats '%b'
 export PS1="%{$fg[green]%}%n@%m%{$reset_color%}%  %{$fg[blue]%}%1~%{$reset_color%} %{$fg[green]%}$%{$reset_color%} "
 export SUDO_PS1="%{$fg[red]%}%n@%m%{$reset_color%}%  %{$fg[blue]%}%1~%{$reset_color%} %{$fg[red]%}#%{$reset_color%} "
 export RPS1=" %{$fg[yellow]%}\$vcs_info_msg_0_ %{$fg[magenta]%}%D{%Y-%m-%d} %D{%H:%M:%S}%{$reset_color%}"
-export SUDO_RPS1=" %{$fg[blue]%}%~%{$reset_color%}"
+export SUDO_RPS1=" %{$fg[yellow]%}\$vcs_info_msg_0_ %{$fg[magenta]%}%D{%Y-%m-%d} %D{%H:%M:%S}%{$reset_color%}"
 
 export CLICOLOR=1
 export LSCOLORS=ExFxCxDxBxegedabagacad

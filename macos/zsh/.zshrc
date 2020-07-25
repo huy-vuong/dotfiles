@@ -85,7 +85,8 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 export PATH="${PATH}:/Library/Frameworks/Python.framework/Versions/3.6/bin"
-export PATH="${PATH}:/Users/silare/Development/flutter/bin"
+export PATH="${PATH}:${HOME}/Development/flutter/bin"
+export PATH="${PATH}:${HOME}/Development/textutils"
 
 git config --global user.name 'Huy Vuong'
 git config --global user.email 'huy-vuong@users.noreply.github.com'

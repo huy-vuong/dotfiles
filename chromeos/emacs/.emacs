@@ -29,9 +29,6 @@ There are two things you can do about this warning:
 (if (fboundp 'tool-bar-mode) (tool-bar-mode -1))
 (if (fboundp 'menu-bar-mode) (menu-bar-mode -1))
 
-;; Palenight Theme
-(load "~/.emacs.d/palenight-theme.el")
-
 ;; Font
 (set-frame-font "JetBrains Mono 12" nil t)
 

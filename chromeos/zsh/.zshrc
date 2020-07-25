@@ -111,8 +111,11 @@ alias emacs='emacs -nw'
 
 # Navigation
 alias l='exa -lh --git'
+alias lt='exa -Tlh --git'
 alias ll='exa -lah --git'
-alias l1='exa -1ah'
+alias llt='exa -Tlah --git'
+alias l1='exa -1h'
+alias ll1='exa -1ah'
 alias fd='fdfind'
 
 # Git

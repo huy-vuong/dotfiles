@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Git
+sudo apt install -y git
+
 # From: https://gist.github.com/steinwaywhw/a4cd19cda655b8249d908261a62687f8
 ghdeb () {
     curl -s "https://api.github.com/repos/${1}/releases/latest" \

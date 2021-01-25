@@ -88,8 +88,9 @@ export PATH="${PATH}:/Library/Frameworks/Python.framework/Versions/3.6/bin"
 export PATH="${PATH}:${HOME}/Development/flutter/bin"
 export PATH="${PATH}:${HOME}/Development/textutils"
 
+export GIT_CONFIG_USER_EMAIL='huy-vuong@users.noreply.github.com'
 git config --global user.name 'Huy Vuong'
-git config --global user.email 'huy-vuong@users.noreply.github.com'
+git config --global user.email ${GIT_CONFIG_USER_EMAIL}
 export VISUAL='/usr/local/bin/code-insiders --wait'
 export EDITOR="$VISUAL"
 
@@ -173,6 +174,51 @@ alias fd='flutter build apk --debug'
 alias fpg='flutter pub get'
 alias fpo='flutter pub outdated'
 alias ft='flutter test'
+
+# Photography
+alias rmexif='exiftool -all='
+alias rmgeo='exiftool -geotag='
+alias rmexifs='for i in *.jpg; do echo "Processing $i"; exiftool -all= "$i"; done'
+alias rmgeos='for i in *.jpg; do echo "Processing $i"; exiftool -geotag= "$i"; done'
+ap () {
+    YEAR=`date +%Y`
+    DATE=`date +%Y%m%d`
+    PHOTO_PATH=`ls -rt -d -1 /Users/${USER}/Pictures/Portfolio/${YEAR}/JPG/{*,.*} | sort | grep "^/Users/${USER}/Pictures/Portfolio/${YEAR}/JPG/${DATE}" | tail -n 1`
+    PHOTO_BASE=`ls -1 /Users/${USER}/Pictures/Portfolio/${YEAR}/JPG | sort | grep "^${DATE}" | tail -n 1`
+    echo ${PHOTO_PATH}
+    echo ${PHOTO_BASE}
+    cp ${PHOTO_PATH} public/images/photos/${PHOTO_BASE}
+    git add data/images/`echo ${PHOTO_BASE} | cut -c1-22`.json
+    git add public/images/photos/${PHOTO_BASE}
+    mogrify -resize '640>' -path public/images/sizes/640 ${PHOTO_PATH}
+    git add public/images/sizes/640/${PHOTO_BASE}
+    mogrify -resize '800>' -path public/images/sizes/800 ${PHOTO_PATH}
+    git add public/images/sizes/800/${PHOTO_BASE}
+    mogrify -resize '1024>' -path public/images/sizes/1024 ${PHOTO_PATH}
+    git add public/images/sizes/1024/${PHOTO_BASE}
+    npm run descriptors
+    git add photos.json
+}
+aps () {
+    while read PHOTO_PATH; do
+        PHOTO_BASE=`basename ${PHOTO_PATH}`
+        echo ${PHOTO_PATH}
+        git add public/images/photos/${PHOTO_BASE}
+        mogrify -resize '640>' -path public/images/sizes/640 ${PHOTO_PATH}
+        git add public/images/sizes/640/${PHOTO_BASE}
+        mogrify -resize '800>' -path public/images/sizes/800 ${PHOTO_PATH}
+        git add public/images/sizes/800/${PHOTO_BASE}
+        mogrify -resize '1024>' -path public/images/sizes/1024 ${PHOTO_PATH}
+        git add public/images/sizes/1024/${PHOTO_BASE}
+    done </tmp/diff.txt
+    npm run descriptors
+    git add photos.json
+}
+pb () {
+    git config --global user.email 'huy-has-photos@users.noreply.github.com'
+    git commit -m "Publish photo for `date "+%Y-%m-%d"`"
+    git config --global user.email ${GIT_CONFIG_USER_EMAIL}
+}
 
 # Jupyter
 export PYTHONPATH=$SPARK_HOME/python/:$PYTHONPATH

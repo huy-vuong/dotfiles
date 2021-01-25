@@ -131,6 +131,10 @@ alias ni='npm i'
 alias nd='npm i --save-dev'
 alias ng='npm i -g'
 alias no='npm outdated'
+alias ns='npm start'
+alias nt='npm test'
+alias na='npm run actions'
+alias nb='npm run build'
 
 # Weather
 alias wt="curl -s 'wttr.in' | grep -v 'New feature' | grep -v 'Follow'"

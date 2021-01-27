@@ -45,4 +45,9 @@
   .menu-entry__label {
     background-color: #000;
   }
+
+  .explorer-node__item-editor,
+  .explorer-node__new-child {
+    color: rgba(0, 0, 0, 0.75);
+  }
 }

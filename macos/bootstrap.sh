@@ -33,8 +33,8 @@ brew install node
 # OpenJDK -
 brew install openjdk
 
-# Emacs - https://www.gnu.org/software/emacs/
-brew install emacs
+# Emacs - https://emacsformacosx.com/
+# Go to that link and install it from there. Don't use `brew`.
 
 # GitHub - https://cli.github.com/
 brew install gh

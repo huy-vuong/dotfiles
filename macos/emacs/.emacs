@@ -1,5 +1,7 @@
 (package-initialize)
 
+(setq default-directory "~")
+
 ;; MELPA
 (require 'package) ;; You might already have this line
 (add-to-list 'package-archives

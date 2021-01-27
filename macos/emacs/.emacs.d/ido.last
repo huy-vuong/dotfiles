@@ -1,0 +1,33 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/silare/.emacs.d/" . "themes/")
+ ("/Users/silare/" . "Downloads/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/silare/.emacs.d/themes/"
+ "/Users/silare/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "palenight-theme.el"
+ ".emacs"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/silare/Downloads/" (24559 257 725632 538000) "y2mate.com - fake_rpg_ost_06_normal_battle_the_fated_encounter_last_imagination_AQSE-1Bj6Jw.mp3" "asynctask.docx" "movie.mp4" "DataStructures-ADM-Ch3.pdf" "Rubik.zip" "javascript.jsx" "STG-backups-FF-86.0a1/" "VID_20190506_124835-ANIMATION.gif" "46fe1fd642b7bb946d074bcfde71a525.jpg" "ATT_337063216637_20200608.pdf" "complete-vig.pdf" "SummaryBillMar2020.pdf" "farewell-unedited.jpg" "download_20181124_171234 (2).jpg" "classgen.py" "displaperture152.dmg" "Archer T4U(EUUS)_V3_180511_Linux.zip" "2019-09-10 - Niagara Falls - Niagara Falls, ON - Rejects.txt" "IMG_20181008_020755.jpg" "Huy Vuong Offer Letter_encrypted_.pdf" "Betterment_Dividend_Reinvestment_2020-05-18.pdf" "tags.txt" "IMG_20160324_231436_1.jpg" "videoplayback.mp4" "One Dark.terminal" "20140117_1965370113710725_1043133374730489360_n.jpg" "splitwise.scala" "IMG_20200301_133712-ANIMATION.gif" "92060542_246205583185988_1853697884343553497_n.jpg" "splitwise.kt" "Straight-A.pdf" "126137265_187838282933656_5928646835768906623_n.jpg" "IMG_20190208_081338(1).jpg" "SuperMarioFlashbackSAGE.zip" "Review_Your_Resume_Critique___TopResume.html" "DSC_4318_CR50.JPG" "PhongThuy_Calc_106_HuyVuong.pdf" "door2door.mp4" "TaxStatement_2019_1099DIV_268011239705159.pdf" "SNES - Harvest Moon - Cow.png" "unstack.rb" "potd-smiling-frogs_3180853k.jpg" "DetailedBillApr2020.pdf" "2018-10-13-20181009-0659.jpg" "IRS Form 1099 12_31_2019.pdf" "29848029228_7ffbe22750_o.jpg" "IMG_20160208_160659.jpg" "Huy L Visa China August 26 2018.pdf" "DSC_7900.JPG" "HUY VUONG_TransUnion Personal Credit Report_20181013.pdf" "Sonomancer - Watch Your Step (Training) REMASTERED.m4a" "IMG_20200919_133147.jpg" "vealisevil.txt" "asynctask.pages" "IMG_20190208_081338.jpg" "Amazon%20Lexicon%20of%20Photography-1.pdf" "IMG_20200320_170820.jpg" "Pre-visit Sheet Birds FINAL.pdf" "custom-css-bootstrap-magic-2020-06-02.css" "DSC_7898.JPG" "input.txt" "DSC_0552-ANIMATION.gif" "IMG_20161029_234328_1.jpg" "TP-LINK_Archer_T4U_v3-master.zip" "IMG_20200704_211612.jpg" "IMG_20200621_190220.jpg" "SummaryBillMay2020.pdf" "gh-md-toc" "trello.js" "Screenshot_20200614-214045.png" "72157717658058818_cb0081706057_part1/" "26169020_1650297785059408_3502671601304045429_n.jpg" "HOFunctions.pdf" "enneagram-test.pdf" "DSC_2324.jpg" "projections.numbers" "InformaticsICSE05.pdf" "nhien.json" "IMG_20180103_163823.jpg" "1475937366-20161008.png" "xiph-qt-0.1.9.dmg" "IMG_20190130_215209.jpg" "DSC_7172_CR.jpg" "DetailedBillMay2020.pdf" "seqcheck.sh" "2019-05-14.jpg" "IMG_20171031_204831.jpg" "2017-11-24 - Bolsa Chica Ecological Reserve - Huntington Beach, CA.txt" "Screenshot_20200614-214057.png" "VID_20191221_162154.mp4" "avatar.webp" "MIW0WAq.jpg" "SummaryBillApr2020.pdf" "91288160_214981606237784_7179964281378705183_n.jpg" "2019-12-21.jpg" "morefood.mp4" "103584947_2966975236756858_2619635644165803977_n.jpg" "IMG_20190614_112625.jpg" "IMG_20201002_141047.jpg" "TFNooo006818150000r0718BC83E57F521.pdf" "chinese.md" "Archer T4U_V3_181018_Linux_beta.zip" "VID_20190307_101613.mp4" "7596030770_fe42dd789a_o.jpg" "IMG_20190719_095617-ANIMATION.gif" "huy-vuong-resume-201101-so.pdf" "covid19-jacob.png" "huy-vuong-resume-201201-jr.pdf" ".localized" "promises.js" "DSC_0545.JPG" "IMG_20200303_212737.jpg" "rtl8812AU_8821AU_linux-master.zip" "DSC_6348-ANIMATION.gif" "VID_20190425_092116.mp4" "materialshell-palenight.terminal" "DSC_4236_CR50.JPG" ".DS_Store" "RaceGroup-1.pdf" "42335975775_4e70d461b8_o.jpg" "WhatsApp Video 2017-06-25 at 12.08.18 PM.mp4" "IMG_20200312_190835.jpg" "IMG_20160114_171041.jpg" "DSC_6696.JPG" "palenight-palette.css" "DSC_6682.JPG" "Screen Shot 2018-07-13 at 8.23.00 PM.png" "DetailedBillMar2020.pdf" "Scan_from_2019-10-22_07_41_34_PM.pdf" "github-test.dart" "How I Kicked the Corporate Habit _ LinkedIn.pdf" "git-hash.dart" "2020-10-24.jpg" "TP-Link-Archer-T4U-AC1300-Linux-driver-kernel-55-master.zip" "huy-vuong-resume-20201015.pdf" "custom-variables-bootstrap-2020-06-02.scss" "covid19-jacob.psd" "Testing.pdf" "huy-vuong-resume-201909-a.pdf" "supplemental_tax_form_268011239705159_2019.pdf" "DSC_1931.JPG" "../" "./")
+
+ ("/Users/silare/" (24559 3328 657028 611000) ".conda/" ".zsh_sessions/" ".viminfo" ".bash_history" ".putty/" ".zcompdump-toccata-5.3" ".gitconfig" ".cache/" ".python_history" "Downloads/" ".oh-my-zsh/" ".bash_profile" ".vscode/" ".mono/" ".autovizwidget/" "Documents/" ".npm/" ".scala_history" ".vscode-insiders/" ".jupyter/" ".Trash/" ".emacs~" ".zsh-update" ".flutter_settings" ".gradle/" "Applications/" ".emacs" "Movies/" ".ssh/" ".anaconda/" ".netlify/" ".flutter" ".emacs.original" "package-lock.json" ".bash_profile-anaconda3.bak" "Public/" ".emacs.20190316.bak" "catalog.sql" ".sbt/" ".sqlite_history" ".DDPreview/" ".bash_sessions/" "project/" ".android/" ".node_repl_history" ".emacs.d/" ".emulator_console_auth_token" ".oracle_jre_usage/" ".lesshst" ".zcompdump-toccata-5.8" ".babel.7.11.6.development.json" ".matplotlib/" "Library/" "Desktop/" ".ipython/" ".zsh_history" ".flutter_tool_state" "Postman/" ".pub-cache/" ".dartServer/" "node_modules/" ".zcompdump-silare’s MacBook Pro-5.3" ".zprofile" ".pylint.d/" "Pictures/" ".psql_history" ".local/" ".plotly/" ".zcompdump-silare’s MacBook Pro-5.2" "target/" ".adobe/" ".zshrc" "Development/" ".zshrc.pre-oh-my-zsh" ".bashrc" ".tooling/" ".wget-hsts" ".devtools" ".CFUserTextEncoding" ".yarnrc" "catalog.lrcat" ".zcompdump-silare’s MacBook Pro (2)-5.3" ".zshrc~" ".DS_Store" ".dart/" ".node-gyp/" ".ivy2/" ".condarc" ".zcompdump-toccata-5.7.1" ".sparkmagic/" ".idea-build/" "Music/" ".config/" ".quokka/" "../" "./")
+
+ ("/Users/silare/.emacs.d/themes/" (24557 30630 755864 824000) "palenight-theme.el" "palenight-theme.el~" "../" "./")
+
+ ("/Users/silare/.emacs.d/" (24557 30631 168468 125000) "themes/" "elpa/" "auto-save-list/" "ido.last~" "smex-items" "ido.last" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

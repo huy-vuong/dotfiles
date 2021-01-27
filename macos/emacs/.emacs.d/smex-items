@@ -1,0 +1,19 @@
+
+;; ----- smex-history -----
+(
+ customize-face
+ hlinum-activate
+ display-line-numbers-mode
+ linum-mode
+ cd
+ 5x5
+ arp
+)
+
+;; ----- smex-data -----
+(
+ (hlinum-activate . 4)
+ (linum-mode . 1)
+ (display-line-numbers-mode . 1)
+ (customize-face . 2)
+)

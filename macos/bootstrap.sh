@@ -38,3 +38,6 @@ brew install emacs
 
 # GitHub - https://cli.github.com/
 brew install gh
+
+# ImageMagick - https://imagemagick.org/
+brew install imagemagick

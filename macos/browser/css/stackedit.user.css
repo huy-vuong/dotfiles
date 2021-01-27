@@ -50,4 +50,16 @@
   .explorer-node__new-child {
     color: rgba(0, 0, 0, 0.75);
   }
+
+  .modal {
+    background-color: hsla(0, 0%, 37%, 0.5);
+  }
+
+  .modal__inner-2 {
+    background-color: #070707;
+  }
+
+  .button--resolve {
+    color: #fff !important;
+  }
 }

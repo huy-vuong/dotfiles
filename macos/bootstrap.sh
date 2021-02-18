@@ -9,6 +9,9 @@ eval $(/opt/homebrew/bin/brew shellenv)
 # Oh My Zsh - https://ohmyz.sh/
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+# .zshrc
+ln -s ~/Development/dotfiles/macos/zsh/.zshrc ~/.zshrc
+
 # wget - https://www.gnu.org/software/wget/
 brew install wget
 
@@ -32,6 +35,10 @@ brew install node
 
 # OpenJDK -
 brew install openjdk
+
+# .emacs .emacs.d
+ln -s ~/Development/dotfiles/macos/emacs/.emacs ~/.emacs
+ln -s ~/Development/dotfiles/macos/emacs/.emacs.d ~/.emacs.d
 
 # Emacs - https://emacsformacosx.com/
 # Go to that link and install it from there. Don't use `brew`.

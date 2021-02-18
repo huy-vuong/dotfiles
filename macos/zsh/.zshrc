@@ -206,6 +206,26 @@ ap () {
     npm run descriptors
     git add photos.json
 }
+apns () {
+    YEAR=`date +%Y`
+    DATE=`date +%Y%m%d`
+    PHOTO_PATH=`ls -rt -d -1 /Users/${USER}/Pictures/Portfolio/${YEAR}/JPG/{*,.*} | sort | grep "^/Users/${USER}/Pictures/Portfolio/${YEAR}/JPG/${DATE}" | tail -n 1`
+    PHOTO_BASE=`ls -1 /Users/${USER}/Pictures/Portfolio/${YEAR}/JPG | sort | grep "^${DATE}" | tail -n 1`
+    echo ${PHOTO_PATH}
+    echo ${PHOTO_BASE}
+    cp ${PHOTO_PATH} public/images/photos/${PHOTO_BASE}
+    git add data/images/`echo ${PHOTO_BASE} | cut -c1-22`.json
+    git add public/images/photos/${PHOTO_BASE}
+    mogrify -resize '640>' -path public/images/sizes/640 ${PHOTO_PATH}
+    git add public/images/sizes/640/${PHOTO_BASE}
+    mogrify -resize '800>' -path public/images/sizes/800 ${PHOTO_PATH}
+    git add public/images/sizes/800/${PHOTO_BASE}
+    mogrify -resize '1024>' -path public/images/sizes/1024 ${PHOTO_PATH}
+    git add public/images/sizes/1024/${PHOTO_BASE}
+    npm run descriptors
+    git add photos.json
+    npm start
+}
 aps () {
     while read PHOTO_PATH; do
         PHOTO_BASE=`basename ${PHOTO_PATH}`

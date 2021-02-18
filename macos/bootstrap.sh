@@ -41,3 +41,12 @@ brew install gh
 
 # ImageMagick - https://imagemagick.org/
 brew install imagemagick
+
+# Go - https://golang.org/
+brew install go
+go get -v golang.org/x/lint/golint
+go get -v golang.org/x/tools/gopls
+go get -v golang.org/x/tools/cmd/goimports
+go get -v github.com/go-delve/delve/cmd/dlv
+go get -v github.com/ramya-rao-a/go-outline
+go get -v github.com/uudashr/gopkgs/v2/cmd/gopkgs

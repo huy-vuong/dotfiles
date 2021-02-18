@@ -84,7 +84,10 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+export GOPATH="${HOME}/Development/go"
+
 export PATH="${PATH}:/Library/Frameworks/Python.framework/Versions/3.6/bin"
+export PATH="${PATH}:${GOPATH}/bin"
 export PATH="${PATH}:${HOME}/Development/flutter/bin"
 export PATH="${PATH}:${HOME}/Development/textutils"
 

@@ -1,0 +1,14 @@
+/* ==UserStyle==
+@name           Outlook
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Blocks the ad sidebar in Outlook to avoid it taking up space because I'm a horrible person.
+@author         huy-vuong
+==/UserStyle== */
+
+@-moz-document domain("outlook.live.com") {
+  /* Hide advertisement sidebar. */
+  div#app > div.ms-Fabric:first-child > div:nth-child(3) > div:first-child > div:first-child > div:nth-child(4) {
+    display: none;
+  }
+}

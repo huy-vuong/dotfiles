@@ -1,0 +1,15 @@
+/* ==UserStyle==
+@name           WhatsApp Web
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Use Roboto for WhatsApp Web's body fonts instead of Arial.
+@author         Me
+==/UserStyle== */
+
+@-moz-document domain("web.whatsapp.com")
+{
+  body
+  {
+    font-family: 'Roboto', 'Segoe UI', 'Helvetica Neue', 'Helvetica', 'Lucida Grande', 'Arial', 'Ubuntu', 'Cantarell', 'Fira Sans', sans-serif;
+  }
+}

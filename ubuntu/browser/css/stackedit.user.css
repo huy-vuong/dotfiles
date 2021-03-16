@@ -1,0 +1,48 @@
+/* ==UserStyle==
+@name           StackEdit
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Applies a full dark theme to all of the StackEdit UI
+@author         huy-vuong
+==/UserStyle== */
+
+@-moz-document domain("stackedit.io") {
+  .side-title {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .layout__panel--explorer,
+  .layout__panel--side-bar {
+    background-color: #222;
+  }
+
+  .button {
+    color: #bbb;
+  }
+
+  .button:active,
+  .button:focus,
+  .button:hover,
+  .hidden-file:focus + .button {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: #ccc;
+  }
+
+  .icon * {
+    color: #bbb;
+  }
+
+  body,
+  html {
+    color: rgba(255, 255, 255, 0.75);
+  }
+
+  .explorer-node--temp,
+  .explorer-node--trash {
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .menu-entry__label {
+    background-color: #000;
+  }
+}

@@ -139,6 +139,10 @@ alias nt='npm test'
 alias na='npm run actions'
 alias nb='npm run build'
 
+# Rust
+alias ct='cargo test'
+alias cr='cargo run --'
+
 # Weather
 alias wt="curl -s 'wttr.in' | grep -v 'New feature' | grep -v 'Follow'"
 

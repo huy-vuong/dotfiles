@@ -57,3 +57,6 @@ go get -v golang.org/x/tools/cmd/goimports
 go get -v github.com/go-delve/delve/cmd/dlv
 go get -v github.com/ramya-rao-a/go-outline
 go get -v github.com/uudashr/gopkgs/v2/cmd/gopkgs
+
+# Rust - https://www.rust-lang.org/tools/install
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh

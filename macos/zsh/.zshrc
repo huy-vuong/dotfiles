@@ -139,6 +139,12 @@ alias nt='npm test'
 alias na='npm run actions'
 alias nb='npm run build'
 
+# Go
+unalias gg
+gg () {
+    make ${1} && ./${1}
+}
+
 # Rust
 alias ct='cargo test'
 alias cr='cargo run --'

@@ -195,6 +195,10 @@ alias fpg='flutter pub get'
 alias fpo='flutter pub outdated'
 alias ft='flutter test'
 
+# Maven / Gradle
+alias mvnw='./mvnw'
+alias gradlew='./gradlew'
+
 # Photography
 alias rmexif='exiftool -all='
 alias rmgeo='exiftool -geotag='

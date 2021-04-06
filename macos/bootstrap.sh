@@ -30,6 +30,9 @@ brew install fd
 # sd - https://github.com/chmln/sd
 brew install sd
 
+# Ticker - https://github.com/achannarasappa/ticker
+brew install achannarasappa/tap/ticker
+
 # Node.js - https://nodejs.org/
 brew install node
 

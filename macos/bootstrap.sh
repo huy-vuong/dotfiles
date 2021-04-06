@@ -36,8 +36,9 @@ brew install achannarasappa/tap/ticker
 # Node.js - https://nodejs.org/
 brew install node
 
-# OpenJDK -
-brew install openjdk
+# OpenJDK - https://adoptopenjdk.net/
+brew tap AdoptOpenJDK/openjdk
+brew install --cask adoptopenjdk15
 
 # .emacs .emacs.d
 ln -s ~/Development/dotfiles/macos/emacs/.emacs ~/.emacs

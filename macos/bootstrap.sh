@@ -64,3 +64,10 @@ go get -v github.com/uudashr/gopkgs/v2/cmd/gopkgs
 
 # Rust - https://www.rust-lang.org/tools/install
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+source ~/.cargo/env
+cargo install cargo-edit
+cargo install cargo-outdated
+cargo install cargo-tree
+cargo install cargo-update
+cargo install cargo-watch
+cargo install rust-script

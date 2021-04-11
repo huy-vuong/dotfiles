@@ -33,6 +33,9 @@ brew install sd
 # Ticker - https://github.com/achannarasappa/ticker
 brew install achannarasappa/tap/ticker
 
+# BlackHole - https://github.com/ExistentialAudio/BlackHole
+brew install blackhole-2ch
+
 # Node.js - https://nodejs.org/
 brew install node
 

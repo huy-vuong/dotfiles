@@ -148,6 +148,9 @@ gg () {
 # Rust
 alias ct='cargo test'
 alias cr='cargo run --'
+alias ca='cargo add'
+alias cad='cargo add -D'
+alias co='cargo outdated'
 
 # Weather
 alias wt="curl -s 'wttr.in' | grep -v 'New feature' | grep -v 'Follow'"

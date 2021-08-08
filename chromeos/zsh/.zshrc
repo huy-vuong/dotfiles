@@ -126,6 +126,13 @@ alias gl='git log'
 alias gw='git show'
 alias gp='git pull'
 
+# Rust
+alias ct='cargo test'
+alias cr='cargo run --'
+alias ca='cargo add'
+alias cad='cargo add -D'
+alias co='cargo outdated'
+
 # Shortcuts
 alias ding='echo -en "\a"'
 alias doc='cd ~/Documents/'

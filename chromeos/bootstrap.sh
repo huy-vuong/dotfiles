@@ -43,6 +43,14 @@ systemctl --user enable --now code-server
 
 # Rust
 curl https://sh.rustup.rs -sSf | sh
+source ~/.cargo/env
+cargo install cargo-audit
+cargo install cargo-edit
+cargo install cargo-outdated
+cargo install cargo-tree
+cargo install cargo-update
+cargo install cargo-watch
+cargo install rust-script
 
 # ripgrep
 sudo apt install -y ripgrep

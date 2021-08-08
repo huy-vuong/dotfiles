@@ -41,6 +41,14 @@ sudo snap install code-insiders --classic
 
 # Rust
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs >/tmp/rustup.sh && (yes 1 | sh /tmp/rustup.sh)
+source ~/.cargo/env
+cargo install cargo-audit
+cargo install cargo-edit
+cargo install cargo-outdated
+cargo install cargo-tree
+cargo install cargo-update
+cargo install cargo-watch
+cargo install rust-script
 
 # ripgrep
 sudo apt install -y ripgrep

@@ -30,6 +30,12 @@ brew install fd
 # sd - https://github.com/chmln/sd
 brew install sd
 
+# fselect - https://github.com/jhspetersson/fselect
+brew install fselect
+
+# dust - https://github.com/bootandy/dust
+brew install dust
+
 # Ticker - https://github.com/achannarasappa/ticker
 brew install achannarasappa/tap/ticker
 

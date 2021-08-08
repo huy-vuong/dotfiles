@@ -94,7 +94,7 @@ export PATH="${PATH}:${HOME}/Development/textutils"
 export GIT_CONFIG_USER_EMAIL='huy-vuong@users.noreply.github.com'
 git config --global user.name 'Huy Vuong'
 git config --global user.email ${GIT_CONFIG_USER_EMAIL}
-export VISUAL='/usr/local/bin/code-insiders --wait'
+export VISUAL='/usr/local/bin/code --wait'
 export EDITOR="$VISUAL"
 
 autoload -Uz vcs_info
@@ -169,7 +169,6 @@ alias z='source ~/.zshrc'
 alias zz='code ~/.zshrc; source ~/.zshrc'
 
 # Editors
-alias code='code-insiders'
 alias e='emacs'
 
 # Search

@@ -209,7 +209,7 @@ alias rmgeos='for i in *.jpg; do echo "Processing $i"; exiftool -geotag= "$i"; d
 ap () {
     YEAR=`date +%Y`
     DATE=`date +%Y%m%d`
-    PHOTO_PATH=`ls -rt -d -1 /Users/${USER}/Pictures/Portfolio/${YEAR}/JPG/{*,.*} | sort | grep "^/Users/${USER}/Pictures/Portfolio/${YEAR}/JPG/${DATE}" | tail -n 1`
+    PHOTO_PATH=`ls -rt -d -1 /Users/${USER}/Pictures/Portfolio/${YEAR}/JPG/* | sort | grep "^/Users/${USER}/Pictures/Portfolio/${YEAR}/JPG/${DATE}" | tail -n 1`
     PHOTO_BASE=`ls -1 /Users/${USER}/Pictures/Portfolio/${YEAR}/JPG | sort | grep "^${DATE}" | tail -n 1`
     echo ${PHOTO_PATH}
     echo ${PHOTO_BASE}
@@ -228,7 +228,27 @@ ap () {
 apns () {
     YEAR=`date +%Y`
     DATE=`date +%Y%m%d`
-    PHOTO_PATH=`ls -rt -d -1 /Users/${USER}/Pictures/Portfolio/${YEAR}/JPG/{*,.*} | sort | grep "^/Users/${USER}/Pictures/Portfolio/${YEAR}/JPG/${DATE}" | tail -n 1`
+    PHOTO_PATH=`ls -rt -d -1 /Users/${USER}/Pictures/Portfolio/${YEAR}/JPG/* | sort | grep "^/Users/${USER}/Pictures/Portfolio/${YEAR}/JPG/${DATE}" | tail -n 1`
+    PHOTO_BASE=`ls -1 /Users/${USER}/Pictures/Portfolio/${YEAR}/JPG | sort | grep "^${DATE}" | tail -n 1`
+    echo ${PHOTO_PATH}
+    echo ${PHOTO_BASE}
+    cp ${PHOTO_PATH} public/images/photos/${PHOTO_BASE}
+    git add data/images/`echo ${PHOTO_BASE} | cut -c1-22`.json
+    git add public/images/photos/${PHOTO_BASE}
+    mogrify -resize '640>' -path public/images/sizes/640 ${PHOTO_PATH}
+    git add public/images/sizes/640/${PHOTO_BASE}
+    mogrify -resize '800>' -path public/images/sizes/800 ${PHOTO_PATH}
+    git add public/images/sizes/800/${PHOTO_BASE}
+    mogrify -resize '1024>' -path public/images/sizes/1024 ${PHOTO_PATH}
+    git add public/images/sizes/1024/${PHOTO_BASE}
+    npm run descriptors
+    git add photos.json
+    npm start
+}
+apyns () {
+    YEAR=`date -j -v -1d +%Y`
+    DATE=`date -j -v -1d +%Y%m%d`
+    PHOTO_PATH=`ls -rt -d -1 /Users/${USER}/Pictures/Portfolio/${YEAR}/JPG/* | sort | grep "^/Users/${USER}/Pictures/Portfolio/${YEAR}/JPG/${DATE}" | tail -n 1`
     PHOTO_BASE=`ls -1 /Users/${USER}/Pictures/Portfolio/${YEAR}/JPG | sort | grep "^${DATE}" | tail -n 1`
     echo ${PHOTO_PATH}
     echo ${PHOTO_BASE}
@@ -263,6 +283,20 @@ aps () {
 pb () {
     git config --global user.email 'huy-has-photos@users.noreply.github.com'
     git commit -m "Publish photo for `date "+%Y-%m-%d"`"
+    git config --global user.email ${GIT_CONFIG_USER_EMAIL}
+}
+pb8 () {
+    git config --global user.email 'huy-has-photos@users.noreply.github.com'
+    GIT_AUTHOR_DATE=$(date -v '-8H' '+%a %h %d %H:%M:%S %Y %z') \
+        GIT_COMMITTER_DATE=$(date -v '-8H' '+%a %h %d %H:%M:%S %Y %z') \
+        git commit -m "Publish photo for `date "+%Y-%m-%d"`"
+    git config --global user.email ${GIT_CONFIG_USER_EMAIL}
+}
+pbb () {
+    git config --global user.email 'huy-has-photos@users.noreply.github.com'
+    GIT_AUTHOR_DATE=$(date -v '-12H' '+%a %h %d %H:%M:%S %Y %z') \
+        GIT_COMMITTER_DATE=$(date -v '-12H' '+%a %h %d %H:%M:%S %Y %z') \
+        git commit -m "Publish photo for `date "+%Y-%m-%d"`"
     git config --global user.email ${GIT_CONFIG_USER_EMAIL}
 }
 

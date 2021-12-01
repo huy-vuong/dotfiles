@@ -146,6 +146,7 @@ gg () {
 }
 
 # Rust
+export MACOSX_DEPLOYMENT_TARGET=10.7
 alias ct='cargo test'
 alias cr='cargo run --'
 alias ca='cargo add'

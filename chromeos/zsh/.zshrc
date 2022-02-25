@@ -129,6 +129,8 @@ alias gp='git pull'
 # Rust
 alias ct='cargo test'
 alias cr='cargo run --'
+alias cb='cargo build'
+alias cf='cargo fmt'
 alias ca='cargo add'
 alias cad='cargo add -D'
 alias co='cargo outdated'

@@ -149,6 +149,8 @@ gg () {
 export MACOSX_DEPLOYMENT_TARGET=10.7
 alias ct='cargo test'
 alias cr='cargo run --'
+alias cb='cargo build'
+alias cf='cargo fmt'
 alias ca='cargo add'
 alias cad='cargo add -D'
 alias co='cargo outdated'

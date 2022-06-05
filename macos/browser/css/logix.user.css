@@ -34,26 +34,26 @@
 
   /* Account Number */
   .Data > .Word:nth-child(4) > a {
-    font-family: "SF Mono", "Roboto Mono", "Cousine";
+    font-family: "JetBrains Mono", "SF Mono", "Roboto Mono", "Cousine";
   }
 
   /* Type */
   .Data > .Word:nth-child(3) > span {
     font-weight: bold;
-    font-family: "SF Mono", "Roboto Mono", "Cousine";
+    font-family: "JetBrains Mono", "SF Mono", "Roboto Mono", "Cousine";
   }
 
   /* Subtotals */
   .Total > .Number {
     font-weight: bold;
-    font-family: "SF Mono", "Roboto Mono", "Cousine";
+    font-family: "JetBrains Mono", "SF Mono", "Roboto Mono", "Cousine";
   }
 
   /* TRANSACTIONS */
 
   /* Date */
   .Data > .Word:nth-child(2) > a {
-    font-family: "SF Mono", "Roboto Mono", "Cousine";
+    font-family: "JetBrains Mono", "SF Mono", "Roboto Mono", "Cousine";
   }
 
   /* Debit */
@@ -68,6 +68,7 @@
 
   /* Numeric Fields */
   .Data > .Number {
-    font-family: "SF Mono", "Roboto Mono", "Cousine";
+    font-family: "JetBrains Mono", "SF Mono", "Roboto Mono", "Cousine";
   }
+
 }

@@ -81,3 +81,6 @@ cargo install cargo-tree
 cargo install cargo-update
 cargo install cargo-watch
 cargo install rust-script
+
+# Deta - https://deta.sh/
+curl -fsSL https://get.deta.dev/cli.sh | sh

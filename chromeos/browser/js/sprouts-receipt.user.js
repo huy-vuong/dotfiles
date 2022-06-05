@@ -1,4 +1,15 @@
-(() => {
+// ==UserScript==
+// @name         Sprout Receipt Scraper
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  Generate CSV from Sprouts receipt pages (Purchase History).
+// @author       huy-vuong
+// @match        https://shop.sprouts.com/account/order-history/purchase/*
+// @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+// @grant        none
+// ==/UserScript==
+
+setTimeout(() => {
   const items = [
     ...document.querySelectorAll('tr[ng-repeat-start="item in items"]'),
   ].map((row) => {
@@ -66,10 +77,12 @@
       listing,
       "",
       "",
+      "",
       "Sprouts Farmers Market",
       storeNumber,
     ].join(",")
   );
 
   console.log(lines.join("\n"));
-})();
+  console.log(lines.length);
+}, 5000);

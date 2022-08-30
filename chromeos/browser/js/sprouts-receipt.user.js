@@ -12,16 +12,21 @@
 setTimeout(() => {
   const items = [
     ...document.querySelectorAll('tr[ng-repeat-start="item in items"]'),
-  ].map((row) => {
-    const [listing, unitCount, price] = row.textContent.trim().split("   ");
-    return {
-      unitCount: Number(unitCount).toFixed(3),
-      unitPrice: (
-        Number(price.replaceAll("$", "")) / Number(unitCount)
-      ).toFixed(2),
-      listing,
-    };
-  });
+  ]
+    .slice(1)
+    .map((row) => {
+      console.log([...row.children].map((x) => x.textContent));
+      const [listing, unitCount, price] = [...row.children]
+        .map((child) => child.textContent)
+        .filter((textContent) => textContent.trim());
+      return {
+        unitCount: Number(unitCount).toFixed(3),
+        unitPrice: (
+          Number(price.replaceAll("$", "")) / Number(unitCount)
+        ).toFixed(2),
+        listing,
+      };
+    });
 
   const [store, dateTime, itemCount, total] = [
     ...document.querySelectorAll(".data"),

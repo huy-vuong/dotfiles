@@ -94,3 +94,6 @@ wget -qO - https://adoptopenjdk.jfrog.io/adoptopenjdk/api/gpg/key/public | sudo 
 echo "deb https://adoptopenjdk.jfrog.io/adoptopenjdk/deb focal main" | sudo tee /etc/apt/sources.list.d/adoptopenjdk.list
 sudo apt update
 sudo apt install adoptopenjdk-15-openj9
+
+# Deta - https://deta.sh/
+curl -fsSL https://get.deta.dev/cli.sh | sh

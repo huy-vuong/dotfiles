@@ -75,3 +75,6 @@ cargo install sd
 ghdeb cli/cli
 sudo apt install -y ./gh_*_linux_amd64.deb
 rm ./gh_*.deb
+
+# Deta
+curl -fsSL https://get.deta.dev/cli.sh | sh

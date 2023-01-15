@@ -57,7 +57,7 @@ sudo apt install -y ripgrep
 sudo apt install -y fd-find
 
 # exa
-cargo install exa
+sudo apt install -y exa
 sudo wget -O /usr/local/share/zsh/site-functions/exa-completion.zsh https://raw.githubusercontent.com/ogham/exa/master/contrib/completions.zsh
 
 # bat

@@ -6,9 +6,6 @@ sudo /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/insta
 echo 'eval $(/opt/homebrew/bin/brew shellenv)' >> /Users/${USER}/.zprofile
 eval $(/opt/homebrew/bin/brew shellenv)
 
-# Oh My Zsh - https://ohmyz.sh/
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
 # .zshrc
 ln -s ~/Development/dotfiles/macos/zsh/.zshrc ~/.zshrc
 
@@ -84,3 +81,6 @@ cargo install rust-script
 
 # Deta - https://deta.sh/
 curl -fsSL https://get.deta.dev/cli.sh | sh
+
+# Oh My Zsh - https://ohmyz.sh/
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"

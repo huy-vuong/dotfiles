@@ -15,10 +15,6 @@ ghdeb () {
         | wget -qi -
 }
 
-# Zsh
-sudo apt install -y zsh
-sudo usermod -s "$(command -v zsh)" "${USER}"
-
 # Emacs
 sudo apt install -y emacs
 
@@ -82,9 +78,6 @@ sudo apt update
 sudo apt install -y docker-ce docker-ce-cli containerd.io
 sudo docker run hello-world
 
-# Oh My Zsh
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
 # Palenight GNOME Terminal Theme
 bash -c  "$(wget -qO- https://git.io/vQgMr)"
 
@@ -97,3 +90,10 @@ sudo apt install adoptopenjdk-15-openj9
 
 # Deta - https://deta.sh/
 curl -fsSL https://get.deta.dev/cli.sh | sh
+
+# Zsh
+sudo apt install -y zsh
+sudo usermod -s "$(command -v zsh)" "${USER}"
+
+# Oh My Zsh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"

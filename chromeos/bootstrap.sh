@@ -12,13 +12,6 @@ ghdeb () {
         | wget -qi -
 }
 
-# Zsh
-sudo apt install -y zsh
-sudo usermod -s "$(command -v zsh)" "${USER}"
-
-# Oh My Zsh
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
 # Emacs
 sudo apt install -y emacs
 
@@ -78,3 +71,10 @@ rm ./gh_*.deb
 
 # Deta
 curl -fsSL https://get.deta.dev/cli.sh | sh
+
+# Zsh
+sudo apt install -y zsh
+sudo usermod -s "$(command -v zsh)" "${USER}"
+
+# Oh My Zsh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"

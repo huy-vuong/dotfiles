@@ -45,9 +45,9 @@ brew install blackhole-2ch
 # Node.js - https://nodejs.org/
 brew install node
 
-# OpenJDK - https://adoptopenjdk.net/
-brew tap AdoptOpenJDK/openjdk
-brew install --cask adoptopenjdk15
+# OpenJDK - https://openjdk.org/
+brew install java
+sudo ln -sfn /opt/homebrew/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
 
 # .emacs .emacs.d
 ln -s ~/Development/dotfiles/macos/emacs/.emacs ~/.emacs

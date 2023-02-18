@@ -1,19 +1,19 @@
 // Place your settings in this file to overwrite the default settings
 {
   "editor.folding": false,
-  "editor.fontFamily": "'Jetbrains Mono','SF Mono', 'Roboto Mono', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "'Jetbrains Mono', 'SF Mono', 'Roboto Mono', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 14,
+  "editor.tabSize": 2,
+  "editor.letterSpacing": -0.45,
+  "editor.fontWeight": "400",
   "editor.fontLigatures": true,
-  "editor.formatOnSave": true,
   "editor.minimap.enabled": false,
   "editor.renderControlCharacters": false,
   "editor.renderWhitespace": "none",
   "editor.rulers": [80],
   "files.trimTrailingWhitespace": true,
   "python.linting.enabled": true,
-  "python.linting.pycodestyleEnabled": true,
-  "python.linting.pycodestylePath": "pycodestyle",
   "python.linting.pylintEnabled": true,
-  "python.pythonPath": "/usr/local/bin/python3",
   "telemetry.enableCrashReporter": false,
   "telemetry.enableTelemetry": false,
   "workbench.activityBar.visible": false,
@@ -21,23 +21,13 @@
     "titleBar.activeBackground": "#313749",
     "titleBar.inactiveBackground": "#313749"
   },
-  "workbench.colorTheme": "Palenight Theme",
   "workbench.iconTheme": "material-icon-theme",
-  "window.zoomLevel": 0,
   "workbench.sideBar.location": "left",
-  "breadcrumbs.enabled": false,
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "gitlens.currentLine.enabled": false,
-  "gitlens.hovers.currentLine.over": "line",
-  "gitlens.codeLens.enabled": false,
   "dart.flutterCreateAndroidLanguage": "kotlin",
   "dart.flutterCreateIOSLanguage": "swift",
   "python.insidersChannel": "off",
-  "editor.tabSize": 2,
-  "editor.fontSize": 14,
-  "editor.letterSpacing": -0.45,
-  "editor.fontWeight": "500",
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -57,10 +47,55 @@
     "editor.tabCompletion": "onlySnippets",
     "editor.wordBasedSuggestions": false
   },
-  "python.languageServer": "Microsoft",
+  "python.languageServer": "Default",
   "typescript.format.semicolons": "insert",
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "javascript.preferences.quoteStyle": "single"
+  "javascript.preferences.quoteStyle": "single",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[rust]": {
+    "editor.tabSize": 4
+  },
+  "sync.forceUpload": false,
+  "window.menuBarVisibility": "toggle",
+  "[go]": {
+    "editor.formatOnSave": true
+  },
+  "[markdown]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "go.formatTool": "goimports",
+  "go.gopath": "~/Development/go",
+  "write-good.languages": ["markdown", "plaintext"],
+  "markdown.styles": [".vscode-markdown-preview.css"],
+  "python.defaultInterpreterPath": "/usr/local/bin/python3",
+  "workbench.colorTheme": "Palenight (Mild Contrast)",
+  "workbench.productIconTheme": "material-product-icons",
+  "gitdoc.enabled": false,
+  "git.autofetch": true,
+  "gitdoc.commitMessageFormat": "",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.associations": {
+    "*.gs": "javascript"
+  },
+  "dart.debugExternalPackageLibraries": false,
+  "dart.debugSdkLibraries": false,
+  "python.linting.mypyEnabled": true,
+  "python.formatting.provider": "black",
+  "python.formatting.blackPath": "/opt/homebrew/bin/black",
+  "editor.unicodeHighlight.allowedCharacters": {
+    "×": true
+  },
+  "eslint.alwaysShowStatus": true,
+  "editor.formatOnSave": true,
+  "typescript.updateImportsOnFileMove.enabled": "always"
 }

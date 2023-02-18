@@ -81,6 +81,7 @@ cargo install rust-script
 
 # Visual Studio Code -
 ln -s ${HOME}/Development/dotfiles/macos/code/settings.json ${HOME}/Library/Application\ Support/Code/User/settings.json
+ln -s ${HOME}/Development/dotfiles/macos/code/keybindings.json ${HOME}/Library/Application\ Support/Code/User/keybindings.json
 brew install --cask visual-studio-code
 
 # Deta - https://deta.sh/

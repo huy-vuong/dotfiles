@@ -1,41 +1,4 @@
-// Place your settings in this file to overwrite the default settings
 {
-  "editor.folding": false,
-  "editor.fontFamily": "'Jetbrains Mono', 'SF Mono', 'Roboto Mono', Menlo, Monaco, 'Courier New', monospace",
-  "editor.tabSize": 2,
-  "editor.letterSpacing": -0.25,
-  "editor.fontWeight": "500",
-  "editor.fontLigatures": true,
-  "editor.minimap.enabled": false,
-  "editor.renderControlCharacters": false,
-  "editor.renderWhitespace": "none",
-  "editor.rulers": [80],
-  "files.trimTrailingWhitespace": true,
-  "python.linting.enabled": true,
-  "python.linting.pylintEnabled": true,
-  "telemetry.enableCrashReporter": false,
-  "telemetry.enableTelemetry": false,
-  "workbench.activityBar.visible": false,
-  "workbench.colorCustomizations": {
-    "titleBar.activeBackground": "#313749",
-    "titleBar.inactiveBackground": "#313749"
-  },
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.sideBar.location": "left",
-  "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "dart.flutterCreateAndroidLanguage": "kotlin",
-  "dart.flutterCreateIOSLanguage": "swift",
-  "python.insidersChannel": "off",
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "[dart]": {
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
@@ -46,55 +9,91 @@
     "editor.tabCompletion": "onlySnippets",
     "editor.wordBasedSuggestions": false
   },
-  "python.languageServer": "Default",
-  "typescript.format.semicolons": "insert",
-  "[json]": {
+  "[go]": {
+    "editor.formatOnSave": true
+  },
+  "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "javascript.preferences.quoteStyle": "single",
-  "[html]": {
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[rust]": {
-    "editor.tabSize": 4
-  },
-  "sync.forceUpload": false,
-  "window.menuBarVisibility": "toggle",
-  "[go]": {
-    "editor.formatOnSave": true
-  },
   "[markdown]": {
     "editor.formatOnSave": false,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "go.formatTool": "goimports",
-  "go.gopath": "~/Development/go",
-  "write-good.languages": ["markdown", "plaintext"],
-  "markdown.styles": [".vscode-markdown-preview.css"],
-  "python.defaultInterpreterPath": "/usr/local/bin/python3",
-  "workbench.colorTheme": "Palenight (Mild Contrast)",
-  "workbench.productIconTheme": "material-product-icons",
-  "gitdoc.enabled": false,
-  "git.autofetch": true,
-  "gitdoc.commitMessageFormat": "",
-  "[javascript]": {
+  "[rust]": {
+    "editor.tabSize": 4
+  },
+  "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "files.associations": {
-    "*.gs": "javascript"
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "dart.debugExternalPackageLibraries": false,
   "dart.debugSdkLibraries": false,
-  "python.linting.mypyEnabled": true,
-  "python.formatting.provider": "black",
-  "python.formatting.blackPath": "/opt/homebrew/bin/black",
+  "dart.flutterCreateAndroidLanguage": "kotlin",
+  "dart.flutterCreateIOSLanguage": "swift",
+  "editor.folding": false,
+  "editor.fontFamily": "'Jetbrains Mono', 'SF Mono', 'Roboto Mono', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "500",
+  "editor.formatOnSave": true,
+  "editor.letterSpacing": -0.25,
+  "editor.minimap.enabled": false,
+  "editor.renderControlCharacters": false,
+  "editor.renderWhitespace": "none",
+  "editor.rulers": [80],
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
   "editor.unicodeHighlight.allowedCharacters": {
     "×": true
   },
   "eslint.alwaysShowStatus": true,
-  "editor.formatOnSave": true,
-  "typescript.updateImportsOnFileMove.enabled": "always"
+  "files.associations": {
+    "*.gs": "javascript"
+  },
+  "files.trimTrailingWhitespace": true,
+  "git.autofetch": true,
+  "gitdoc.commitMessageFormat": "",
+  "gitdoc.enabled": false,
+  "go.formatTool": "goimports",
+  "go.gopath": "~/Development/go",
+  "javascript.preferences.quoteStyle": "single",
+  "markdown.styles": [".vscode-markdown-preview.css"],
+  "python.defaultInterpreterPath": "/usr/local/bin/python3",
+  "python.formatting.blackPath": "/opt/homebrew/bin/black",
+  "python.formatting.provider": "black",
+  "python.insidersChannel": "off",
+  "python.languageServer": "Default",
+  "python.linting.enabled": true,
+  "python.linting.mypyEnabled": true,
+  "python.linting.pylintEnabled": true,
+  "sync.forceUpload": false,
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+  "typescript.format.semicolons": "insert",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "window.menuBarVisibility": "toggle",
+  "workbench.activityBar.visible": false,
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#313749",
+    "titleBar.inactiveBackground": "#313749"
+  },
+  "workbench.colorTheme": "Palenight (Mild Contrast)",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.productIconTheme": "material-product-icons",
+  "workbench.sideBar.location": "left",
+  "write-good.languages": ["markdown", "plaintext"]
 }

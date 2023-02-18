@@ -206,6 +206,11 @@ alias mvnw='./mvnw'
 alias gradlew='./gradlew'
 
 # Photography
+alias reject="mkdir -p Reject/ && pbpaste | cut -c 7- | sed 's/^/mv DSC0/' | sed 's/$/.* Reject\//' | sh && echo \"Moved `find Reject | grep -c Reject/` files to Reject/\""
+alias rejectn="mkdir -p Reject/ && pbpaste | cut -c 7- | sed 's/^/mv DSC_/' | sed 's/$/.* Reject\//' | sh && echo \"Moved `find Reject | grep -c Reject/` files to Reject/\""
+alias pick="mkdir -p Pick/ && pbpaste | cut -c 7- | sed 's/^/mv DSC0/' | sed 's/$/.* Pick\//' | sh && echo \"Moved `find Pick | grep -c Pick/` files to Pick/\""
+alias pickn="mkdir -p Pick/ && pbpaste | cut -c 7- | sed 's/^/mv DSC_/' | sed 's/$/.* Pick\//' | sh && echo \"Moved `find Pick | grep -c Pick/` files to Pick/\""
+alias unflagged="mkdir -p Unflagged/ && ls -1 | grep '^DSC' | sed 's/^/mv /' | sed 's/$/ Unflagged\//' | sh"
 alias rmexif='exiftool -all='
 alias rmgeo='exiftool -geotag='
 alias rmexifs='for i in *.jpg; do echo "Processing $i"; exiftool -all= "$i"; done'

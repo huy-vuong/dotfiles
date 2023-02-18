@@ -7,7 +7,7 @@ echo 'eval $(/opt/homebrew/bin/brew shellenv)' >> /Users/${USER}/.zprofile
 eval $(/opt/homebrew/bin/brew shellenv)
 
 # .zshrc
-ln -s ~/Development/dotfiles/macos/zsh/.zshrc ~/.zshrc
+ln -s ${HOME}/Development/dotfiles/macos/zsh/.zshrc ${HOME}/.zshrc
 
 # wget - https://www.gnu.org/software/wget/
 brew install wget
@@ -78,6 +78,10 @@ cargo install cargo-tree
 cargo install cargo-update
 cargo install cargo-watch
 cargo install rust-script
+
+# Visual Studio Code -
+ln -s ${HOME}/Development/dotfiles/macos/code/settings.json ${HOME}/Library/Application\ Support/Code/User/settings.json
+brew install --cask visual-studio-code
 
 # Deta - https://deta.sh/
 curl -fsSL https://get.deta.dev/cli.sh | sh

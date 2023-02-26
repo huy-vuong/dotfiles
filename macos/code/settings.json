@@ -70,6 +70,7 @@
   "python.linting.enabled": true,
   "python.linting.mypyEnabled": true,
   "python.linting.pylintEnabled": true,
+  "scm.inputFontSize": 12,
   "telemetry.telemetryLevel": "off",
   "typescript.format.semicolons": "insert",
   "typescript.updateImportsOnFileMove.enabled": "always",

@@ -1,0 +1,20 @@
+[user]
+  name = Huy Vuong
+  email = huy-vuong@users.noreply.github.com
+[pull]
+  rebase = true
+[diff]
+  colorMoved = zebra
+[push]
+  autoSetupRemote = true
+[color]
+  ui = auto
+[color "branch"]
+  current = green reverse
+  local = green
+  remote = red
+[color "status"]
+  added = green
+  changed = red
+  untracked = yellow
+	unmerged = magenta

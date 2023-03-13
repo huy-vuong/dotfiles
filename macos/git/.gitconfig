@@ -1,12 +1,12 @@
 [user]
-  name = Huy Vuong
-  email = huy-vuong@users.noreply.github.com
+	name = Huy Vuong
+	email = huy-vuong@users.noreply.github.com
 [pull]
-  rebase = true
+	rebase = true
 [diff]
   colorMoved = zebra
 [push]
-  autoSetupRemote = true
+	autoSetupRemote = true
 [color]
   ui = auto
 [color "branch"]

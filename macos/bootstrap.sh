@@ -39,6 +39,9 @@ brew install achannarasappa/tap/ticker
 # BlackHole - https://github.com/ExistentialAudio/BlackHole
 brew install blackhole-2ch
 
+# ExifTool - https://exiftool.org/
+brew install exiftool
+
 # Node.js - https://nodejs.org/
 brew install node
 

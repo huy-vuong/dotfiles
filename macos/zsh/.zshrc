@@ -212,6 +212,13 @@ alias rmexif='exiftool -all='
 alias rmgeo='exiftool -geotag='
 alias rmexifs='for i in *.jpg; do echo "Processing $i"; exiftool -all= "$i"; done'
 alias rmgeos='for i in *.jpg; do echo "Processing $i"; exiftool -geotag= "$i"; done'
+ph () {
+    if (( ${+1} )); then
+        cd ~/Pictures/Photos/${1}
+    else
+        cd ~/Pictures/Photos
+    fi
+}
 reject () {
     mkdir -p Reject/
     pbpaste | cut -c 7- | sed 's/^/mv DSC0/' | sed 's/$/.* Reject\//' | sh

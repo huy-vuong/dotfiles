@@ -222,27 +222,27 @@ ph () {
 reject () {
     mkdir -p Reject/
     pbpaste | cut -c 7- | sed 's/^/mv DSC0/' | sed 's/$/.* Reject\//' | sh
-    echo \"Moved `find Reject | grep -c Reject/` files to Reject/\"
+    echo "Moved `find Reject | grep -c Reject/` files to Reject/"
 }
 rejectn () {
     mkdir -p Reject/
     pbpaste | cut -c 7- | sed 's/^/mv DSC_/' | sed 's/$/.* Reject\//' | sh
-    echo \"Moved `find Reject | grep -c Reject/` files to Reject/\"
+    echo "Moved `find Reject | grep -c Reject/` files to Reject/"
 }
 pick () {
     mkdir -p Pick/
     pbpaste | cut -c 7- | sed 's/^/mv DSC0/' | sed 's/$/.* Pick\//' | sh
-    echo \"Moved `find Pick | grep -c Pick/` files to Pick/\"
+    echo "Moved `find Pick | grep -c Pick/` files to Pick/"
 }
 pickn () {
     mkdir -p Pick/
     pbpaste | cut -c 7- | sed 's/^/mv DSC_/' | sed 's/$/.* Pick\//' | sh
-    echo \"Moved `find Pick | grep -c Pick/` files to Pick/\"
+    echo "Moved `find Pick | grep -c Pick/` files to Pick/"
 }
 unflagged () {
     mkdir -p Unflagged/
     ls -1 | grep '^DSC' | sed 's/^/mv /' | sed 's/$/ Unflagged\//' | sh
-    echo \"Moved `find Unflagged | grep -c Unflagged/` files to Unflagged/\"
+    echo "Moved `find Unflagged | grep -c Unflagged/` files to Unflagged/"
 }
 ap () {
     YEAR=`date +%Y`
@@ -397,3 +397,5 @@ zstyle ':completion:*:*:kill:*' insert-ids single
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="~/.sdkman"
 [[ -s "~/.sdkman/bin/sdkman-init.sh" ]] && source "~/.sdkman/bin/sdkman-init.sh"
+
+export PATH="/Users/silare/.detaspace/bin:$PATH"

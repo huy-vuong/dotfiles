@@ -27,6 +27,9 @@ brew install fd
 # sd - https://github.com/chmln/sd
 brew install sd
 
+# f3 - https://github.com/AltraMayor/f3
+brew install f3
+
 # fselect - https://github.com/jhspetersson/fselect
 brew install fselect
 

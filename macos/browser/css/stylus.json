@@ -1,0 +1,340 @@
+[
+  {
+    "settings": {
+      "openEditInWindow": false,
+      "openEditInWindow.popup": false,
+      "windowPosition": {},
+      "show-badge": true,
+      "disableAll": false,
+      "exposeIframes": false,
+      "exposeStyleName": false,
+      "newStyleAsUsercss": true,
+      "styleViaXhr": false,
+      "patchCsp": false,
+      "urlInstaller": true,
+      "config.autosave": true,
+      "schemeSwitcher.enabled": "system",
+      "schemeSwitcher.nightStart": "18:00",
+      "schemeSwitcher.nightEnd": "06:00",
+      "popup.breadcrumbs": true,
+      "popup.breadcrumbs.usePath": false,
+      "popup.enabledFirst": true,
+      "popup.stylesFirst": true,
+      "popup.autoResort": false,
+      "popup.borders": false,
+      "popup.findSort": "u",
+      "manage.onlyEnabled": false,
+      "manage.onlyLocal": false,
+      "manage.onlyUsercss": false,
+      "manage.onlyEnabled.invert": false,
+      "manage.onlyLocal.invert": false,
+      "manage.onlyUsercss.invert": false,
+      "manage.actions.expanded": true,
+      "manage.backup.expanded": true,
+      "manage.filters.expanded": true,
+      "manage.minColumnWidth": 750,
+      "manage.newUI": true,
+      "manage.newUI.favicons": false,
+      "manage.newUI.faviconsGray": true,
+      "manage.newUI.targets": 3,
+      "manage.newUI.sort": "title,asc",
+      "editor.options": {},
+      "editor.toc.expanded": true,
+      "editor.options.expanded": true,
+      "editor.lint.expanded": true,
+      "editor.publish.expanded": true,
+      "editor.lineWrapping": true,
+      "editor.smartIndent": true,
+      "editor.indentWithTabs": false,
+      "editor.tabSize": 4,
+      "editor.keyMap": "default",
+      "editor.theme": "default",
+      "editor.beautify": {
+        "selector_separator_newline": true,
+        "newline_before_open_brace": false,
+        "newline_after_open_brace": true,
+        "newline_between_properties": true,
+        "newline_before_close_brace": true,
+        "newline_between_rules": false,
+        "preserve_newlines": true,
+        "end_with_newline": false,
+        "indent_conditional": true,
+        "indent_mozdoc": true
+      },
+      "editor.beautify.hotkey": "",
+      "editor.lintDelay": 300,
+      "editor.linter": "csslint",
+      "editor.lintReportDelay": 500,
+      "editor.matchHighlight": "token",
+      "editor.autoCloseBrackets": true,
+      "editor.autocompleteOnTyping": false,
+      "editor.contextDelete": false,
+      "editor.selectByTokens": true,
+      "editor.arrowKeysTraverse": true,
+      "editor.appliesToLineWidget": true,
+      "editor.autosaveDraft": 10,
+      "editor.livePreview": true,
+      "editor.colorpicker": true,
+      "editor.colorpicker.hexUppercase": false,
+      "editor.colorpicker.hotkey": "",
+      "editor.colorpicker.color": "",
+      "editor.colorpicker.maxHeight": 300,
+      "hotkey._execute_browser_action": "",
+      "hotkey.openManage": "",
+      "hotkey.styleDisableAll": "",
+      "sync.enabled": "none",
+      "iconset": -1,
+      "badgeDisabled": "#8B0000",
+      "badgeNormal": "#006666",
+      "headerWidth.edit": 280,
+      "headerWidth.install": 280,
+      "headerWidth.manage": 280,
+      "popupWidth": 246,
+      "updateInterval": 24
+    },
+    "order": {
+      "main": [],
+      "prio": []
+    }
+  },
+  {
+    "enabled": true,
+    "installDate": 1654416351064,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name           Amazon\n@namespace      github.com/openstyles/stylus\n@version        1.0.0\n@description    Use Amazon Ember for Amazon's body fonts instead of Arial.\n@author         huy-vuong\n==/UserStyle== */\n\n@-moz-document domain(\"amazon.com\")\n{\n  body,\n  #nav-xshop,\n  a.nav-a,\n  a.nav-a:link,\n  a.nav-a:visited,\n  .nav-packard-glow,\n  #nav-tools,\n  .nav-truncate,\n  #navbar,\n  .nav-line-1,\n  .nav-line-2,\n  .nav-line-3,\n  .nav-line-4,\n  #nav-main,\n  #navbar .nav-tools .nav-truncate .nav-line-1,\n  #navbar .nav-tools .nav-truncate .nav-line-3,\n  #nav-tools .nav-a-2 .nav-line-1,\n  #nav-tools .nav-a-2 .nav-line-2,\n  #nav-tools .nav-a-2 .nav-line-3,\n  #nav-tools .nav-a-2 .nav-line-4,\n  #nav-xshop .nav-a-2 .nav-line-1,\n  #nav-xshop .nav-a-2 .nav-line-2,\n  #nav-xshop .nav-a-2 .nav-line-3,\n  #nav-xshop .nav-a-2 .nav-line-4,\n  #navbar .nav-tools .nav-a-2 .nav-line-1,\n  #navbar .nav-tools .nav-a-2 .nav-line-2,\n  #navbar .nav-tools .nav-a-2 .nav-line-3,\n  #navbar .nav-tools .nav-a-2 .nav-line-4,\n  #nav-xshop .nav-a,\n  .nav-packard-glow #nav-global-location-slot .nav-a-2 .nav-line-1,\n  .nav-packard-glow #nav-global-location-slot .nav-a-2 .nav-line-2,\n  .navFooterColHead,\n  #navFooter a:link, #navFooter a:visited,\n  #navFooter a, #navFooter span,\n  div.navFooterLine\n  {\n    font-family: \"Amazon Ember\", \"Arial\", sans-serif;\n  }\n}\n",
+    "usercssData": {
+      "name": "Amazon",
+      "namespace": "github.com/openstyles/stylus",
+      "version": "1.0.0",
+      "description": "Use Amazon Ember for Amazon's body fonts instead of Arial.",
+      "author": "huy-vuong"
+    },
+    "author": "huy-vuong",
+    "description": "Use Amazon Ember for Amazon's body fonts instead of Arial.",
+    "name": "Amazon",
+    "updateDate": 1654416355322,
+    "_id": "2b6d5109-e13b-4bf0-afa0-9ad669a74103",
+    "_rev": 1662632836692,
+    "id": 1
+  },
+  {
+    "enabled": true,
+    "installDate": 1654416368657,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name           Facebook Messenger\n@namespace      github.com/openstyles/stylus\n@version        1.0.0\n@description    Use Roboto for Facebook Messenger's body fonts instead of Arial.\n@author         Me\n==/UserStyle== */\n\n@-moz-document domain(\"www.messenger.com\")\n{\n  body, button, input, label, select, td, textarea, ._z4_\n  {\n    font-family: '-apple-system', BlinkMacSystemFont, Roboto, 'Segoe UI', Helvetica, Roboto, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';\n  }\n}\n",
+    "usercssData": {
+      "name": "Facebook Messenger",
+      "namespace": "github.com/openstyles/stylus",
+      "version": "1.0.0",
+      "description": "Use Roboto for Facebook Messenger's body fonts instead of Arial.",
+      "author": "Me"
+    },
+    "author": "Me",
+    "description": "Use Roboto for Facebook Messenger's body fonts instead of Arial.",
+    "name": "Facebook Messenger",
+    "updateDate": 1654416642702,
+    "_id": "0f504dc0-e33a-4d88-ae17-53f329169345",
+    "_rev": 1662632836709,
+    "id": 2
+  },
+  {
+    "enabled": true,
+    "installDate": 1654416386309,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name           GitHub\n@namespace      github.com/openstyles/stylus\n@version        1.0.0\n@description    Change body and monospace fonts on GitHub.\n@author         huy-vuong\n==/UserStyle== */\n\n@-moz-document domain(\"github.com\")\n{\n  body, .markdown-body\n  {\n    font-family: '-apple-system',BlinkMacSystemFont,Roboto,'Segoe UI',Helvetica,Roboto,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';\n  }\n\n  code, pre, tt, .blob-code-inner\n  {\n    font-family: \"JetBrains Mono\", \"SFMono-Regular\", \"Cousine\", \"Consolas\", \"Liberation Mono\", \"Menlo\", \"Courier\", monospace;\n  }\n}\n",
+    "usercssData": {
+      "name": "GitHub",
+      "namespace": "github.com/openstyles/stylus",
+      "version": "1.0.0",
+      "description": "Change body and monospace fonts on GitHub.",
+      "author": "huy-vuong"
+    },
+    "author": "huy-vuong",
+    "description": "Change body and monospace fonts on GitHub.",
+    "name": "GitHub",
+    "updateDate": 1654417628752,
+    "_id": "ea826334-4e05-4c62-872a-b17e7fa0e903",
+    "_rev": 1662632836710,
+    "id": 3
+  },
+  {
+    "enabled": true,
+    "installDate": 1654416652688,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name           Google Calendar\n@namespace      github.com/openstyles/stylus\n@version        1.0.0\n@description    Replaces the day numbers in the week view for Google Calendar.\n@author         huy-vuong\n==/UserStyle== */\n\n@-moz-document domain(\"calendar.google.com\")\n{\n  /* Day of week. */\n  .qAeuG,\n  .qAeuG.pCcXPe,\n  .qAeuG.N4XV7d\n  {\n    text-transform: none;\n    font-family: 'Google Sans', 'Roboto', 'Helvetica', 'Arial', sans-serif;\n    font-size: 13px;\n    font-weight: 400;\n    letter-spacing: 0.5px;\n    margin-top: 6px;\n    margin-bottom: 2px;\n  }\n\n  /* Day of month number. */\n  .rpCPrc\n  {\n    text-align: left;\n  }\n\n  /* Not current day. */\n  .KSxb4d\n  {\n    font-feature-settings: normal;\n    font-size: 42px;\n    font-variant: none;\n    margin-left: 2px;\n    margin-right: 0;\n    letter-spacing: 0;\n  }\n\n  /* Current day. */\n  .KSxb4d.F262Ye,\n  body.geSgge .KSxb4d.F262Ye\n  {\n    background-color: rgba(0, 0, 0, 0);\n    color: #1a73e8;\n    font-feature-settings: normal;\n    font-size: 42px;\n    font-variant: none;\n    margin-left: 2px;\n    margin-right: 0;\n    letter-spacing: 0;\n  }\n\n  /* Not current day hover circle. */\n  .KSxb4d.RKLVef:hover,\n  body.geSgge .KSxb4d.RKLVef:hover,\n  .KSxb4d.N4XV7d.RKLVef:hover,\n  body.geSgge .KSxb4d.N4XV7d.RKLVef:hover\n  {\n    background-color: rgba(0, 0, 0, 0);\n  }\n\n  /* Current day hover circle. */\n  .KSxb4d.F262Ye.RKLVef:hover,\n  body.geSgge .KSxb4d.F262Ye.RKLVef:hover\n  {\n    background-color: rgba(0, 0, 0, 0);\n  }\n\n  /* Current time marking (circle). */\n  .h11RHc\n  {\n    background: #1a73e8;\n  }\n\n  /* Current time marking (line). */\n  .H3tRZe\n  {\n    border-top: #1a73e8 solid 2px;\n  }\n}\n",
+    "usercssData": {
+      "name": "Google Calendar",
+      "namespace": "github.com/openstyles/stylus",
+      "version": "1.0.0",
+      "description": "Replaces the day numbers in the week view for Google Calendar.",
+      "author": "huy-vuong"
+    },
+    "author": "huy-vuong",
+    "description": "Replaces the day numbers in the week view for Google Calendar.",
+    "name": "Google Calendar",
+    "updateDate": 1654416652688,
+    "_id": "70d9299e-d954-4dc8-8717-1a08651adcfe",
+    "_rev": 1662632836710,
+    "id": 4
+  },
+  {
+    "enabled": true,
+    "installDate": 1654416695000,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name           Google\n@namespace      github.com/openstyles/stylus\n@version        1.0.0\n@description    Use Roboto for Google's body fonts instead of Arial.\n@author         huy-vuong\n==/UserStyle== */\n\n@-moz-document domain(\"www.google.com\")\n{\n  .g, body, html, input, .std, h1\n  {\n    font-family: Roboto, Arial, sans-serif;\n  }\n\n  .gsfi, .lst\n  {\n    font-family: Roboto, Arial, sans-serif;\n  }\n}\n",
+    "usercssData": {
+      "name": "Google",
+      "namespace": "github.com/openstyles/stylus",
+      "version": "1.0.0",
+      "description": "Use Roboto for Google's body fonts instead of Arial.",
+      "author": "huy-vuong"
+    },
+    "author": "huy-vuong",
+    "description": "Use Roboto for Google's body fonts instead of Arial.",
+    "name": "Google",
+    "updateDate": 1654416695000,
+    "_id": "cb085455-2f78-4f17-81f2-9d8a44baa365",
+    "_rev": 1662632836711,
+    "id": 5
+  },
+  {
+    "enabled": true,
+    "installDate": 1654416702225,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name           Logix Account Summary\n@namespace      github.com/openstyles/stylus\n@version        1.0.0\n@description    Styling for the Logix website for the Account Summary page\n@author         huy-vuong\n==/UserStyle== */\n\n@-moz-document url-prefix(\"https://olb.logixbanking.com/User/MainAccounts/List\") {\n\n  /* Savings and Checking */\n  tr.Data:nth-child(7) > td:nth-child(6) > logix-currency:nth-child(1) > span:nth-child(1),\n  tr.Data:nth-child(8) > td:nth-child(6) > logix-currency:nth-child(1) > span:nth-child(1),\n  tr.Data:nth-child(9) > td:nth-child(6) > logix-currency:nth-child(1) > span:nth-child(1),\n  tr.Total:nth-child(10) > td:nth-child(2) > logix-currency:nth-child(1) > span:nth-child(1) {\n    color: #669933;\n  }\n\n  tr.Data:nth-child(16) > td:nth-child(6) > span:nth-child(1),\n  td.Number:nth-child(3) > span:nth-child(1){\n    color: rgb(255, 96, 58);\n  }\n\n}\n",
+    "usercssData": {
+      "name": "Logix Account Summary",
+      "namespace": "github.com/openstyles/stylus",
+      "version": "1.0.0",
+      "description": "Styling for the Logix website for the Account Summary page",
+      "author": "huy-vuong"
+    },
+    "author": "huy-vuong",
+    "description": "Styling for the Logix website for the Account Summary page",
+    "name": "Logix Account Summary",
+    "updateDate": 1654416702225,
+    "_id": "f489c229-ab1c-4ea7-bf81-1125d32a80c0",
+    "_rev": 1662632836711,
+    "id": 6
+  },
+  {
+    "enabled": true,
+    "installDate": 1654416715246,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name           Logix\n@namespace      github.com/openstyles/stylus\n@version        1.0.0\n@description    Styling for the Logix website to add colours to numbers and monospace fonts.\n@author         huy-vuong\n==/UserStyle== */\n\n@-moz-document domain(\"logixbanking.com\") {\n\n  /* SITE-WIDE */\n\n  #MasterHeaderMenuMain {\n    font-family: \"SF Pro Text\", \"Roboto\" !important;\n  }\n\n  body {\n    font-family: \"SF Pro Text\", \"Roboto\" !important;\n  }\n\n  html {\n    font-family: \"SF Pro Text\", \"Roboto\" !important;\n  }\n\n  .Subtle {\n    font-family: \"SF Pro Text\", \"Roboto\" !important;\n  }\n\n  .Header > td {\n    font-weight: 800 !important;\n  }\n\n  /* ACCOUNTS */\n\n  /* Account Number */\n  .Data > .Word:nth-child(4) > a {\n    font-family: \"JetBrains Mono\", \"SF Mono\", \"Roboto Mono\", \"Cousine\";\n  }\n\n  /* Type */\n  .Data > .Word:nth-child(3) > span {\n    font-weight: bold;\n    font-family: \"JetBrains Mono\", \"SF Mono\", \"Roboto Mono\", \"Cousine\";\n  }\n\n  /* Subtotals */\n  .Total > .Number {\n    font-weight: bold;\n    font-family: \"JetBrains Mono\", \"SF Mono\", \"Roboto Mono\", \"Cousine\";\n  }\n\n  /* TRANSACTIONS */\n\n  /* Date */\n  .Data > .Word:nth-child(2) > a {\n    font-family: \"JetBrains Mono\", \"SF Mono\", \"Roboto Mono\", \"Cousine\";\n  }\n\n  /* Debit */\n  .Data > .Number:nth-child(7) > span > a {\n    color: rgb(255, 96, 58);\n  }\n\n  /* Credit */\n  .Data > .Number:nth-child(8) > span > a {\n    color: #669933;\n  }\n\n  /* Numeric Fields */\n  .Data > .Number {\n    font-family: \"JetBrains Mono\", \"SF Mono\", \"Roboto Mono\", \"Cousine\";\n  }\n\n}\n",
+    "usercssData": {
+      "name": "Logix",
+      "namespace": "github.com/openstyles/stylus",
+      "version": "1.0.0",
+      "description": "Styling for the Logix website to add colours to numbers and monospace fonts.",
+      "author": "huy-vuong"
+    },
+    "author": "huy-vuong",
+    "description": "Styling for the Logix website to add colours to numbers and monospace fonts.",
+    "name": "Logix",
+    "updateDate": 1655325749584,
+    "_id": "8066c4d1-e08a-4bdb-8d06-07ab6cf3557d",
+    "_rev": 1662632836711,
+    "id": 7
+  },
+  {
+    "enabled": true,
+    "installDate": 1654416728016,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name           Outlook\n@namespace      github.com/openstyles/stylus\n@version        1.0.0\n@description    Blocks the ad sidebar in Outlook to avoid it taking up space because I'm a horrible person.\n@author         huy-vuong\n==/UserStyle== */\n\n@-moz-document domain(\"outlook.live.com\") {\n  /* Hide advertisement sidebar. */\n  div#app > div.ms-Fabric:first-child > div:nth-child(3) > div:first-child > div:first-child > div:nth-child(4) {\n    display: none;\n  }\n}\n",
+    "usercssData": {
+      "name": "Outlook",
+      "namespace": "github.com/openstyles/stylus",
+      "version": "1.0.0",
+      "description": "Blocks the ad sidebar in Outlook to avoid it taking up space because I'm a horrible person.",
+      "author": "huy-vuong"
+    },
+    "author": "huy-vuong",
+    "description": "Blocks the ad sidebar in Outlook to avoid it taking up space because I'm a horrible person.",
+    "name": "Outlook",
+    "updateDate": 1654416729547,
+    "_id": "920feff5-1577-40de-88bf-57e5c3836c72",
+    "_rev": 1662632836711,
+    "id": 8
+  },
+  {
+    "enabled": true,
+    "installDate": 1654416757949,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name           StackEdit\n@namespace      github.com/openstyles/stylus\n@version        1.0.0\n@description    Applies a full dark theme to all of the StackEdit UI\n@author         huy-vuong\n==/UserStyle== */\n\n@-moz-document domain(\"stackedit.io\") {\n  .side-title {\n    background-color: rgba(255, 255, 255, 0.1);\n  }\n\n  .layout__panel--explorer,\n  .layout__panel--side-bar {\n    background-color: #222;\n  }\n\n  .button {\n    color: #bbb;\n  }\n\n  .button:active,\n  .button:focus,\n  .button:hover,\n  .hidden-file:focus + .button {\n    background-color: rgba(255, 255, 255, 0.05);\n    color: #ccc;\n  }\n\n  .icon * {\n    color: #bbb;\n  }\n\n  body,\n  html {\n    color: rgba(255, 255, 255, 0.75);\n  }\n\n  .explorer-node--temp,\n  .explorer-node--trash {\n    color: rgba(255, 255, 255, 0.5);\n  }\n\n  .menu-entry__label {\n    background-color: #000;\n  }\n\n  .explorer-node__item-editor,\n  .explorer-node__new-child {\n    color: rgba(0, 0, 0, 0.75);\n  }\n\n  .modal {\n    background-color: hsla(0, 0%, 37%, 0.5);\n  }\n\n  .modal__inner-2 {\n    background-color: #070707;\n  }\n\n  .button--resolve {\n    color: #fff !important;\n  }\n}\n",
+    "usercssData": {
+      "name": "StackEdit",
+      "namespace": "github.com/openstyles/stylus",
+      "version": "1.0.0",
+      "description": "Applies a full dark theme to all of the StackEdit UI",
+      "author": "huy-vuong"
+    },
+    "author": "huy-vuong",
+    "description": "Applies a full dark theme to all of the StackEdit UI",
+    "name": "StackEdit",
+    "updateDate": 1654416757949,
+    "_id": "a566c0e2-053b-4f52-9734-392422158075",
+    "_rev": 1662632836712,
+    "id": 9
+  },
+  {
+    "enabled": true,
+    "installDate": 1654416766420,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name           WhatsApp Web\n@namespace      github.com/openstyles/stylus\n@version        1.0.0\n@description    Use Roboto for WhatsApp Web's body fonts instead of Arial.\n@author         Me\n==/UserStyle== */\n\n@-moz-document domain(\"web.whatsapp.com\")\n{\n  body\n  {\n    font-family: '-apple-system', BlinkMacSystemFont, Roboto, 'Segoe UI', Helvetica, Roboto, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';\n  }\n}\n",
+    "usercssData": {
+      "name": "WhatsApp Web",
+      "namespace": "github.com/openstyles/stylus",
+      "version": "1.0.0",
+      "description": "Use Roboto for WhatsApp Web's body fonts instead of Arial.",
+      "author": "Me"
+    },
+    "author": "Me",
+    "description": "Use Roboto for WhatsApp Web's body fonts instead of Arial.",
+    "name": "WhatsApp Web",
+    "updateDate": 1654416797725,
+    "_id": "45eeab15-b56a-4889-ac88-d150e784eb4a",
+    "_rev": 1662632836712,
+    "id": 10
+  }
+]

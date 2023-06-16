@@ -221,7 +221,7 @@ ph () {
 }
 reject () {
     mkdir -p Reject/
-    pbpaste | cut -c 7- | sed 's/^/mv DSC0/' | sed 's/$/.* Reject\//' | sh
+    pbpaste | cut -c 7- | sed 's/^/mv DSC[01]/' | sed 's/$/.* Reject\//' | sh
     echo "Moved `find Reject | grep -c Reject/` files to Reject/"
 }
 rejectn () {
@@ -231,7 +231,7 @@ rejectn () {
 }
 pick () {
     mkdir -p Pick/
-    pbpaste | cut -c 7- | sed 's/^/mv DSC0/' | sed 's/$/.* Pick\//' | sh
+    pbpaste | cut -c 7- | sed 's/^/mv DSC[01]/' | sed 's/$/.* Pick\//' | sh
     echo "Moved `find Pick | grep -c Pick/` files to Pick/"
 }
 pickn () {

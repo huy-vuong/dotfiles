@@ -114,13 +114,13 @@ export CLICOLOR=1
 export LSCOLORS=ExFxCxDxBxegedabagacad
 
 # Navigation
-alias l='exa -lh'
-alias lt='exa -lhT'
-alias ltt='exa -T'
-alias ll='exa -lah'
-alias llt='exa -lahT'
-alias lltt='exa -aT'
-alias l1='exa -1'
+alias l='eza -lh'
+alias lt='eza -lhT'
+alias ltt='eza -T'
+alias ll='eza -lah'
+alias llt='eza -lahT'
+alias lltt='eza -aT'
+alias l1='eza -1'
 
 # Git
 alias gs='git status'

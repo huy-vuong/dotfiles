@@ -12,8 +12,8 @@ ln -s ${HOME}/Development/dotfiles/macos/zsh/.zshrc ${HOME}/.zshrc
 # wget - https://www.gnu.org/software/wget/
 brew install wget
 
-# exa - https://the.exa.website/
-brew install exa
+# eza - https://github.com/eza-community/eza
+brew install eza
 
 # rg - https://github.com/BurntSushi/ripgrep
 brew install ripgrep

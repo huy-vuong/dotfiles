@@ -36,6 +36,9 @@ brew install fselect
 # dust - https://github.com/bootandy/dust
 brew install dust
 
+# fx - https://github.com/antonmedv/fx
+brew install fx
+
 # Ticker - https://github.com/achannarasappa/ticker
 brew install achannarasappa/tap/ticker
 

@@ -202,6 +202,7 @@ alias fpo='flutter pub outdated'
 alias fpb='flutter pub run build_runner build --delete-conflicting-outputs'
 alias ft='flutter test'
 export SDK_REGISTRY_TOKEN=`cat ~/.mapbox-sol`
+export PATH="$HOME/.pub-cache/bin:~/Development/flutter/bin:$PATH"
 
 # Maven / Gradle
 alias mvnw='./mvnw'

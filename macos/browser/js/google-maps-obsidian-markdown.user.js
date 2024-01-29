@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  Convert Google Maps pages to a line of Markdown for Obsidian
 // @author       huy-vuong
-// @match        https://www.google.com/maps/place/*
+// @match        https://www.google.com/maps/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=google.com
 // @grant        none
 // ==/UserScript==
@@ -12,9 +12,9 @@
 const outputs = new Set();
 
 setInterval(() => {
-  const shareModalHeader = [
-    ...document.querySelectorAll("h1.fontHeadlineLarge"),
-  ].find((h1) => h1.textContent === "Share");
+  const shareModalHeader = [...document.querySelectorAll("h1.lfPIob")].find(
+    (h1) => h1.textContent === "Share"
+  );
   if (!shareModalHeader) {
     return;
   }
@@ -30,8 +30,8 @@ setInterval(() => {
 
   // Address
   const address =
-    shareModalHeader.parentNode.nextSibling.nextSibling.children[1].children[1]
-      .textContent;
+    shareModalHeader.parentNode.nextSibling.nextSibling.children[0].children[1]
+      .children[1].textContent;
 
   // Coordinates
   const coordinateString = new URL(window.location).pathname.split("!3d")[1];

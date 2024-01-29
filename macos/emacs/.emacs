@@ -141,7 +141,7 @@
   (interactive)
   (set-face-attribute 'fringe nil :foreground "#697098")
   (set-face-attribute 'linum nil :foreground "#697098"))
-(if (display-graphic-p) (set-frame-font "JetBrains Mono 14"))
+(if (display-graphic-p) (set-frame-font "JetBrains Mono 12"))
 (if (display-graphic-p) (load-theme 'palenight t))
 (if (display-graphic-p) (palenight-linum))
 ; (defun atom-one-dark-linum ()

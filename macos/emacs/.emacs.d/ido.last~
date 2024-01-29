@@ -1,0 +1,38 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/silare/Development/huyan/" . ".github/")
+ ("/Users/silare/Development/" . "huyan/")
+ ("/Users/silare/" . "Downloads/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/silare/Downloads/"
+ "/Users/silare/"
+ "/Users/silare/Development/huyan/.github/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "outlook.ics"
+ ".emacs"
+ "dependabot.yml"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/silare/Downloads/" (25836 945 295866 268000) "Play.json" "outlook.ics" "AkropolisPlay.json" "receipt.pdf" ".localized" "Invoice PO #19020.pdf" "LUCE on Kettner - 11.11.23 - Huy & Yan's Wedding.pdf" ".DS_Store" "Print My Trips.pdf" "../" "./")
+
+ ("/Users/silare/" (25836 972 667422 506000) ".zsh_sessions/" ".viminfo" ".gitconfig" ".cache/" ".python_history" "Downloads/" ".oh-my-zsh/" ".swiftpm/" ".mapbox-sol" ".vscode/" ".zcompdump-anthem-5.9" "Documents/" ".npm/" ".Trash/" ".zshrc.bk" ".gradle/" ".profile" "Applications/" ".emacs" "Movies/" ".dart-tool/" ".rustup/" ".detaspace/" ".zshrc.omz" ".deta/" ".flutter" ".zshenv" "Public/" ".cocoapods/" ".android/" ".cargo/" ".node_repl_history" ".emacs.d/" ".emulator_console_auth_token" ".xargo/" ".lesshst" ".zcompdump-anthem-5.9.zwc" "Library/" "Desktop/" ".zsh_history" ".gitconfig.bak" ".pub-cache/" ".dartServer/" ".zprofile" "Pictures/" "Creative Cloud Files/" ".local/" ".zcompdump-silare’s MacBook Pro-5.8.1" ".adobe/" ".zshrc" "Development/" ".wget-hsts" ".CFUserTextEncoding" ".zcompdump-anthem-5.8.1.zwc" ".DS_Store" ".dart/" ".docker/" ".space/" "Music/" ".config/" ".zcompdump-anthem-5.8.1" "../" "./")
+
+ ("/Users/silare/Development/huyan/.github/" (25340 45163 317605 691000) "dependabot.yml" "workflows/" "../" "./")
+
+ ("/Users/silare/Development/huyan/" (25383 48066 983436 940000) ".vscode/" ".git/" "api/" ".github/" ".gitignore" "README.md" "web/" "../" "./")
+
+ ("/Users/silare/Development/" (25373 29868 111814 281000) "chef-chat/" "react-blank-project/" "deta-playground/" "magda/" "chubtubhub/" "golden-receipter/" "flutter/" "mark-out/" "kibs/" "huyan/" "sol/" "zenme-xie/" "dotfiles/" ".DS_Store" "captr/" "mao/" "copycat/" "journal/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

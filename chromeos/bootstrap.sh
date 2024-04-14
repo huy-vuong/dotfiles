@@ -51,9 +51,9 @@ sudo apt install -y ripgrep
 # fd
 sudo apt install -y fd-find
 
-# exa
-cargo install exa
-sudo wget -O /usr/local/share/zsh/site-functions/exa-completion.zsh https://raw.githubusercontent.com/ogham/exa/master/contrib/completions.zsh
+# eza
+cargo install eza
+sudo wget -O /usr/local/share/zsh/site-functions/eza-completion.zsh https://raw.githubusercontent.com/ogham/eza/master/contrib/completions.zsh
 
 # bat
 ghdeb sharkdp/bat

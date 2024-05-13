@@ -20,9 +20,7 @@ setInterval(() => {
   }
 
   // Short URL
-  const copyLinkButton = document.querySelector(
-    'button[jsaction="pane.copyLink.copy"]'
-  );
+  const copyLinkButton = document.querySelector("button.oucrtf.PpaGLb");
   if (!copyLinkButton) {
     return;
   }

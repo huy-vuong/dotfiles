@@ -208,6 +208,10 @@ export PATH="$HOME/.pub-cache/bin:~/Development/flutter/bin:$PATH"
 alias mvnw='./mvnw'
 alias gradlew='./gradlew'
 
+# Filesystem
+alias h='hurrdirrdiff'
+alias d1='dust -d 1'
+
 # Photography
 alias rmexif='exiftool -all='
 alias rmgeo='exiftool -geotag='

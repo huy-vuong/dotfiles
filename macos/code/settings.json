@@ -4,7 +4,7 @@
     "editor.selectionHighlight": false,
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "editor.tabCompletion": "onlySnippets",
-    "editor.wordBasedSuggestions": false
+    "editor.wordBasedSuggestions": "off"
   },
   "[go]": {
     "editor.formatOnSave": true
@@ -44,12 +44,10 @@
   "editor.folding": false,
   "editor.fontFamily": "'Jetbrains Mono', 'SF Mono', 'Roboto Mono', Menlo, Monaco, 'Courier New', monospace",
   "editor.fontLigatures": true,
-  "editor.fontWeight": 500,
-  "editor.formatOnSave": true,
-  "editor.letterSpacing": -0.25,
+  "editor.letterSpacing": -0.1,
   "editor.minimap.enabled": false,
   "editor.renderControlCharacters": true,
-  "editor.renderWhitespace": "all",
+  "editor.renderWhitespace": "trailing",
   "editor.rulers": [80],
   "editor.suggestSelection": "first",
   "editor.tabSize": 2,
@@ -76,13 +74,30 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "window.commandCenter": true,
-  "workbench.activityBar.visible": false,
   "workbench.colorCustomizations": {
-    "titleBar.activeBackground": "#313749",
-    "titleBar.inactiveBackground": "#313749"
+    "[Palenight (Mild Contrast)]": {
+      "titleBar.activeBackground": "#313749",
+      "titleBar.inactiveBackground": "#313749"
+    },
+    "[Monospace IDX Dark]": {
+      "titleBar.activeBackground": "#10151d",
+      "titleBar.inactiveBackground": "#161e29",
+      "titleBar.activeForeground": "#ffffff",
+      "editorIndentGuide.background1": "#1f2837",
+      "editorRuler.foreground": "#313c4d",
+      "editorOverviewRuler.border": "#313c4d",
+      "statusBar.debuggingBackground": "#212938"
+    }
   },
-  "workbench.colorTheme": "Palenight (Mild Contrast)",
-  "workbench.iconTheme": "material-icon-theme",
   "workbench.productIconTheme": "material-product-icons",
-  "workbench.sideBar.location": "left"
+  "workbench.sideBar.location": "left",
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.activityBar.location": "hidden",
+  "testing.automaticallyOpenPeekView": "never",
+  "workbench.colorTheme": "Monospace IDX Dark",
+  "workbench.iconTheme": "material-icon-theme",
+  "dart.flutterSdkPath": "/Users/silare/Development/flutter",
+  "editor.formatOnSave": true
 }

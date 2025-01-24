@@ -220,6 +220,9 @@ ph () {
         cd ~/Pictures/Photos
     fi
 }
+lrk () { # Show Lightroom keywords for the given .xmp file.
+    xpath -q -e '/x:xmpmeta/rdf:RDF/rdf:Description/lr:weightedFlatSubject/rdf:Bag/rdf:li/text()' $1
+}
 reject () {
     mkdir -p Reject/
     pbpaste | cut -c 7- | sed 's/^/mv DSC[01]/' | sed 's/$/.* Reject\//' | sh

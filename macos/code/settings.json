@@ -89,7 +89,6 @@
       "statusBar.debuggingBackground": "#212938"
     }
   },
-  "workbench.productIconTheme": "material-product-icons",
   "workbench.sideBar.location": "left",
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -97,7 +96,9 @@
   "workbench.activityBar.location": "hidden",
   "testing.automaticallyOpenPeekView": "never",
   "workbench.colorTheme": "Monospace IDX Dark",
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "monospace-idx-file-icon-theme",
   "dart.flutterSdkPath": "/Users/silare/Development/flutter",
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "chat.commandCenter.enabled": false,
+  "workbench.productIconTheme": "material-product-icons"
 }

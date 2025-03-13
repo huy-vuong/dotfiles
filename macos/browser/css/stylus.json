@@ -1,54 +1,59 @@
 [
   {
     "settings": {
-      "openEditInWindow": false,
-      "openEditInWindow.popup": false,
-      "windowPosition": {},
-      "show-badge": true,
       "disableAll": false,
       "exposeIframes": false,
       "exposeStyleName": false,
+      "keepAlive": 0,
+      "keepAliveIdle": false,
       "newStyleAsUsercss": true,
-      "styleViaXhr": false,
+      "openEditInWindow": false,
+      "openEditInWindow.popup": false,
       "patchCsp": false,
+      "show-badge": true,
+      "styleViaASS": false,
+      "styleViaXhr": false,
       "urlInstaller": true,
+      "windowPosition": {},
+      "compactWidth": 850,
       "config.autosave": true,
       "schemeSwitcher.enabled": "system",
       "schemeSwitcher.nightStart": "18:00",
       "schemeSwitcher.nightEnd": "06:00",
-      "popup.breadcrumbs": true,
-      "popup.breadcrumbs.usePath": false,
       "popup.enabledFirst": true,
       "popup.stylesFirst": true,
       "popup.autoResort": false,
       "popup.borders": false,
-      "popup.findSort": "u",
+      "popup.findSort": "w",
       "manage.onlyEnabled": false,
       "manage.onlyLocal": false,
       "manage.onlyUsercss": false,
       "manage.onlyEnabled.invert": false,
       "manage.onlyLocal.invert": false,
       "manage.onlyUsercss.invert": false,
-      "manage.actions.expanded": true,
+      "manage.actions.expanded": false,
       "manage.backup.expanded": true,
       "manage.filters.expanded": true,
+      "manage.links.expanded": true,
       "manage.minColumnWidth": 750,
       "manage.newUI": true,
-      "manage.newUI.favicons": false,
-      "manage.newUI.faviconsGray": true,
+      "manage.newUI.favicons": true,
+      "manage.newUI.faviconsGray": false,
       "manage.newUI.targets": 3,
       "manage.newUI.sort": "title,asc",
+      "manage.searchMode": "meta",
       "editor.options": {},
       "editor.toc.expanded": true,
       "editor.options.expanded": true,
+      "editor.options.style.expanded": true,
       "editor.lint.expanded": true,
       "editor.publish.expanded": true,
       "editor.lineWrapping": true,
       "editor.smartIndent": true,
       "editor.indentWithTabs": false,
       "editor.tabSize": 4,
-      "editor.keyMap": "default",
-      "editor.theme": "default",
+      "editor.keyMap": "macDefault",
+      "editor.theme": "material-palenight",
       "editor.beautify": {
         "selector_separator_newline": true,
         "newline_before_open_brace": false,
@@ -59,7 +64,9 @@
         "preserve_newlines": true,
         "end_with_newline": false,
         "indent_conditional": true,
-        "indent_mozdoc": true
+        "indent_mozdoc": true,
+        "space_around_combinator": true,
+        "space_around_cmp": false
       },
       "editor.beautify.hotkey": "",
       "editor.lintDelay": 300,
@@ -74,6 +81,8 @@
       "editor.appliesToLineWidget": true,
       "editor.autosaveDraft": 10,
       "editor.livePreview": true,
+      "editor.livePreview.delay": 0.2,
+      "editor.targetsFirst": true,
       "editor.colorpicker": true,
       "editor.colorpicker.hexUppercase": false,
       "editor.colorpicker.hotkey": "",
@@ -89,8 +98,11 @@
       "headerWidth.edit": 280,
       "headerWidth.install": 280,
       "headerWidth.manage": 280,
+      "popup.search.globals": false,
       "popupWidth": 246,
-      "updateInterval": 24
+      "popupWidthMax": 280,
+      "updateInterval": 24,
+      "updateOnlyEnabled": false
     },
     "order": {
       "main": [],
@@ -99,31 +111,7 @@
   },
   {
     "enabled": true,
-    "installDate": 1654416351064,
-    "sections": [
-      {
-        "code": ""
-      }
-    ],
-    "sourceCode": "/* ==UserStyle==\n@name           Amazon\n@namespace      github.com/openstyles/stylus\n@version        1.0.0\n@description    Use Amazon Ember for Amazon's body fonts instead of Arial.\n@author         huy-vuong\n==/UserStyle== */\n\n@-moz-document domain(\"amazon.com\")\n{\n  body,\n  #nav-xshop,\n  a.nav-a,\n  a.nav-a:link,\n  a.nav-a:visited,\n  .nav-packard-glow,\n  #nav-tools,\n  .nav-truncate,\n  #navbar,\n  .nav-line-1,\n  .nav-line-2,\n  .nav-line-3,\n  .nav-line-4,\n  #nav-main,\n  #navbar .nav-tools .nav-truncate .nav-line-1,\n  #navbar .nav-tools .nav-truncate .nav-line-3,\n  #nav-tools .nav-a-2 .nav-line-1,\n  #nav-tools .nav-a-2 .nav-line-2,\n  #nav-tools .nav-a-2 .nav-line-3,\n  #nav-tools .nav-a-2 .nav-line-4,\n  #nav-xshop .nav-a-2 .nav-line-1,\n  #nav-xshop .nav-a-2 .nav-line-2,\n  #nav-xshop .nav-a-2 .nav-line-3,\n  #nav-xshop .nav-a-2 .nav-line-4,\n  #navbar .nav-tools .nav-a-2 .nav-line-1,\n  #navbar .nav-tools .nav-a-2 .nav-line-2,\n  #navbar .nav-tools .nav-a-2 .nav-line-3,\n  #navbar .nav-tools .nav-a-2 .nav-line-4,\n  #nav-xshop .nav-a,\n  .nav-packard-glow #nav-global-location-slot .nav-a-2 .nav-line-1,\n  .nav-packard-glow #nav-global-location-slot .nav-a-2 .nav-line-2,\n  .navFooterColHead,\n  #navFooter a:link, #navFooter a:visited,\n  #navFooter a, #navFooter span,\n  div.navFooterLine\n  {\n    font-family: \"Amazon Ember\", \"Arial\", sans-serif;\n  }\n}\n",
-    "usercssData": {
-      "name": "Amazon",
-      "namespace": "github.com/openstyles/stylus",
-      "version": "1.0.0",
-      "description": "Use Amazon Ember for Amazon's body fonts instead of Arial.",
-      "author": "huy-vuong"
-    },
-    "author": "huy-vuong",
-    "description": "Use Amazon Ember for Amazon's body fonts instead of Arial.",
-    "name": "Amazon",
-    "updateDate": 1654416355322,
-    "_id": "2b6d5109-e13b-4bf0-afa0-9ad669a74103",
-    "_rev": 1662632836692,
-    "id": 1
-  },
-  {
-    "enabled": true,
-    "installDate": 1654416368657,
+    "installDate": 1741085096911,
     "sections": [
       {
         "code": ""
@@ -140,14 +128,14 @@
     "author": "Me",
     "description": "Use Roboto for Facebook Messenger's body fonts instead of Arial.",
     "name": "Facebook Messenger",
-    "updateDate": 1654416642702,
-    "_id": "0f504dc0-e33a-4d88-ae17-53f329169345",
-    "_rev": 1662632836709,
+    "updateDate": 1741085096911,
+    "_id": "80f9ceb5-dbf8-488f-97d0-40ef3c12adba",
+    "_rev": 1741085096911,
     "id": 2
   },
   {
     "enabled": true,
-    "installDate": 1654416386309,
+    "installDate": 1741085159856,
     "sections": [
       {
         "code": ""
@@ -164,38 +152,14 @@
     "author": "huy-vuong",
     "description": "Change body and monospace fonts on GitHub.",
     "name": "GitHub",
-    "updateDate": 1654417628752,
-    "_id": "ea826334-4e05-4c62-872a-b17e7fa0e903",
-    "_rev": 1662632836710,
+    "updateDate": 1741085159856,
+    "_id": "c8f9b41e-fc97-4f06-bd3e-156933f7bd37",
+    "_rev": 1741085159856,
     "id": 3
   },
   {
     "enabled": true,
-    "installDate": 1654416652688,
-    "sections": [
-      {
-        "code": ""
-      }
-    ],
-    "sourceCode": "/* ==UserStyle==\n@name           Google Calendar\n@namespace      github.com/openstyles/stylus\n@version        1.0.0\n@description    Replaces the day numbers in the week view for Google Calendar.\n@author         huy-vuong\n==/UserStyle== */\n\n@-moz-document domain(\"calendar.google.com\")\n{\n  /* Day of week. */\n  .qAeuG,\n  .qAeuG.pCcXPe,\n  .qAeuG.N4XV7d\n  {\n    text-transform: none;\n    font-family: 'Google Sans', 'Roboto', 'Helvetica', 'Arial', sans-serif;\n    font-size: 13px;\n    font-weight: 400;\n    letter-spacing: 0.5px;\n    margin-top: 6px;\n    margin-bottom: 2px;\n  }\n\n  /* Day of month number. */\n  .rpCPrc\n  {\n    text-align: left;\n  }\n\n  /* Not current day. */\n  .KSxb4d\n  {\n    font-feature-settings: normal;\n    font-size: 42px;\n    font-variant: none;\n    margin-left: 2px;\n    margin-right: 0;\n    letter-spacing: 0;\n  }\n\n  /* Current day. */\n  .KSxb4d.F262Ye,\n  body.geSgge .KSxb4d.F262Ye\n  {\n    background-color: rgba(0, 0, 0, 0);\n    color: #1a73e8;\n    font-feature-settings: normal;\n    font-size: 42px;\n    font-variant: none;\n    margin-left: 2px;\n    margin-right: 0;\n    letter-spacing: 0;\n  }\n\n  /* Not current day hover circle. */\n  .KSxb4d.RKLVef:hover,\n  body.geSgge .KSxb4d.RKLVef:hover,\n  .KSxb4d.N4XV7d.RKLVef:hover,\n  body.geSgge .KSxb4d.N4XV7d.RKLVef:hover\n  {\n    background-color: rgba(0, 0, 0, 0);\n  }\n\n  /* Current day hover circle. */\n  .KSxb4d.F262Ye.RKLVef:hover,\n  body.geSgge .KSxb4d.F262Ye.RKLVef:hover\n  {\n    background-color: rgba(0, 0, 0, 0);\n  }\n\n  /* Current time marking (circle). */\n  .h11RHc\n  {\n    background: #1a73e8;\n  }\n\n  /* Current time marking (line). */\n  .H3tRZe\n  {\n    border-top: #1a73e8 solid 2px;\n  }\n}\n",
-    "usercssData": {
-      "name": "Google Calendar",
-      "namespace": "github.com/openstyles/stylus",
-      "version": "1.0.0",
-      "description": "Replaces the day numbers in the week view for Google Calendar.",
-      "author": "huy-vuong"
-    },
-    "author": "huy-vuong",
-    "description": "Replaces the day numbers in the week view for Google Calendar.",
-    "name": "Google Calendar",
-    "updateDate": 1654416652688,
-    "_id": "70d9299e-d954-4dc8-8717-1a08651adcfe",
-    "_rev": 1662632836710,
-    "id": 4
-  },
-  {
-    "enabled": true,
-    "installDate": 1654416695000,
+    "installDate": 1741085272099,
     "sections": [
       {
         "code": ""
@@ -212,20 +176,44 @@
     "author": "huy-vuong",
     "description": "Use Roboto for Google's body fonts instead of Arial.",
     "name": "Google",
-    "updateDate": 1654416695000,
-    "_id": "cb085455-2f78-4f17-81f2-9d8a44baa365",
-    "_rev": 1662632836711,
-    "id": 5
+    "updateDate": 1741085279974,
+    "_id": "4452f03b-da81-445b-9e2a-c1faf6d5df52",
+    "_rev": 1741085279974,
+    "id": 4
   },
   {
     "enabled": true,
-    "installDate": 1654416702225,
+    "installDate": 1741085698097,
     "sections": [
       {
         "code": ""
       }
     ],
-    "sourceCode": "/* ==UserStyle==\n@name           Logix Account Summary\n@namespace      github.com/openstyles/stylus\n@version        1.0.0\n@description    Styling for the Logix website for the Account Summary page\n@author         huy-vuong\n==/UserStyle== */\n\n@-moz-document url-prefix(\"https://olb.logixbanking.com/User/MainAccounts/List\") {\n\n  /* Savings and Checking */\n  tr.Data:nth-child(7) > td:nth-child(6) > logix-currency:nth-child(1) > span:nth-child(1),\n  tr.Data:nth-child(8) > td:nth-child(6) > logix-currency:nth-child(1) > span:nth-child(1),\n  tr.Data:nth-child(9) > td:nth-child(6) > logix-currency:nth-child(1) > span:nth-child(1),\n  tr.Total:nth-child(10) > td:nth-child(2) > logix-currency:nth-child(1) > span:nth-child(1) {\n    color: #669933;\n  }\n\n  tr.Data:nth-child(16) > td:nth-child(6) > span:nth-child(1),\n  td.Number:nth-child(3) > span:nth-child(1){\n    color: rgb(255, 96, 58);\n  }\n\n}\n",
+    "sourceCode": "/* ==UserStyle==\n@name           Amazon\n@namespace      github.com/openstyles/stylus\n@version        1.0.0\n@description    Use Amazon Ember for Amazon's body fonts instead of Arial.\n@author         huy-vuong\n==/UserStyle== */\n\n@-moz-document domain(\"amazon.com\")\n{\n  body,\n  #nav-xshop,\n  a.nav-a,\n  a.nav-a:link,\n  a.nav-a:visited,\n  .nav-packard-glow,\n  #nav-tools,\n  .nav-truncate,\n  #navbar,\n  .nav-line-1,\n  .nav-line-2,\n  .nav-line-3,\n  .nav-line-4,\n  #nav-main,\n  #navbar .nav-tools .nav-truncate .nav-line-1,\n  #navbar .nav-tools .nav-truncate .nav-line-3,\n  #nav-tools .nav-a-2 .nav-line-1,\n  #nav-tools .nav-a-2 .nav-line-2,\n  #nav-tools .nav-a-2 .nav-line-3,\n  #nav-tools .nav-a-2 .nav-line-4,\n  #nav-xshop .nav-a-2 .nav-line-1,\n  #nav-xshop .nav-a-2 .nav-line-2,\n  #nav-xshop .nav-a-2 .nav-line-3,\n  #nav-xshop .nav-a-2 .nav-line-4,\n  #navbar .nav-tools .nav-a-2 .nav-line-1,\n  #navbar .nav-tools .nav-a-2 .nav-line-2,\n  #navbar .nav-tools .nav-a-2 .nav-line-3,\n  #navbar .nav-tools .nav-a-2 .nav-line-4,\n  #nav-xshop .nav-a,\n  .nav-packard-glow #nav-global-location-slot .nav-a-2 .nav-line-1,\n  .nav-packard-glow #nav-global-location-slot .nav-a-2 .nav-line-2,\n  .navFooterColHead,\n  #navFooter a:link, #navFooter a:visited,\n  #navFooter a, #navFooter span,\n  div.navFooterLine,\n  .a-ember,\n  .a-ember body\n  {\n    font-family: \"Amazon Ember\", \"Ember Modern Display Standard\", \"Arial\", sans-serif;\n  }\n}\n",
+    "usercssData": {
+      "name": "Amazon",
+      "namespace": "github.com/openstyles/stylus",
+      "version": "1.0.0",
+      "description": "Use Amazon Ember for Amazon's body fonts instead of Arial.",
+      "author": "huy-vuong"
+    },
+    "author": "huy-vuong",
+    "description": "Use Amazon Ember for Amazon's body fonts instead of Arial.",
+    "name": "Amazon",
+    "updateDate": 1741086074724,
+    "_id": "70939f52-8228-44f6-b414-14397c374e25",
+    "_rev": 1741086074724,
+    "id": 5
+  },
+  {
+    "enabled": true,
+    "installDate": 1741086211367,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name           Logix Account Summary\n@namespace      github.com/openstyles/stylus\n@version        1.0.0\n@description    Styling for the Logix website for the Account Summary page\n@author         huy-vuong\n==/UserStyle== */\n\n@-moz-document url-prefix(\"https://olb.logixbanking.com/User/MainAccounts/List\") {\n  /* Savings and Checking */\n  tr.Data:nth-child(7) > td:nth-child(6) > logix-currency:nth-child(1) > span:nth-child(1),\n  tr.Data:nth-child(8) > td:nth-child(6) > logix-currency:nth-child(1) > span:nth-child(1),\n  tr.Data:nth-child(9) > td:nth-child(6) > logix-currency:nth-child(1) > span:nth-child(1),\n  tr.Total:nth-child(10) > td:nth-child(2) > logix-currency:nth-child(1) > span:nth-child(1) {\n    color: #669933;\n  }\n\n  tr.Data:nth-child(16) > td:nth-child(6) > span:nth-child(1),\n  td.Number:nth-child(3) > span:nth-child(1){\n    color: rgb(255, 96, 58);\n  }\n}\n",
     "usercssData": {
       "name": "Logix Account Summary",
       "namespace": "github.com/openstyles/stylus",
@@ -236,14 +224,14 @@
     "author": "huy-vuong",
     "description": "Styling for the Logix website for the Account Summary page",
     "name": "Logix Account Summary",
-    "updateDate": 1654416702225,
-    "_id": "f489c229-ab1c-4ea7-bf81-1125d32a80c0",
-    "_rev": 1662632836711,
+    "updateDate": 1741086211367,
+    "_id": "5ef7ea13-a057-40dd-a894-637641130ae8",
+    "_rev": 1741086211367,
     "id": 6
   },
   {
     "enabled": true,
-    "installDate": 1654416715246,
+    "installDate": 1741086233470,
     "sections": [
       {
         "code": ""
@@ -260,38 +248,38 @@
     "author": "huy-vuong",
     "description": "Styling for the Logix website to add colours to numbers and monospace fonts.",
     "name": "Logix",
-    "updateDate": 1655325749584,
-    "_id": "8066c4d1-e08a-4bdb-8d06-07ab6cf3557d",
-    "_rev": 1662632836711,
+    "updateDate": 1741086233470,
+    "_id": "83b94de1-e56a-46b6-8287-26b5f7d062dd",
+    "_rev": 1741086233470,
     "id": 7
   },
   {
     "enabled": true,
-    "installDate": 1654416728016,
+    "installDate": 1741086255551,
     "sections": [
       {
         "code": ""
       }
     ],
-    "sourceCode": "/* ==UserStyle==\n@name           Outlook\n@namespace      github.com/openstyles/stylus\n@version        1.0.0\n@description    Blocks the ad sidebar in Outlook to avoid it taking up space because I'm a horrible person.\n@author         huy-vuong\n==/UserStyle== */\n\n@-moz-document domain(\"outlook.live.com\") {\n  /* Hide advertisement sidebar. */\n  div#app > div.ms-Fabric:first-child > div:nth-child(3) > div:first-child > div:first-child > div:nth-child(4) {\n    display: none;\n  }\n}\n",
+    "sourceCode": "/* ==UserStyle==\n@name           Outlook\n@namespace      github.com/openstyles/stylus\n@version        2.0.0\n@description    Blocks the ad sidebar in Outlook to avoid it taking up space because I'm a horrible person.\n@author         huy-vuong\n==/UserStyle== */\n\n@-moz-document domain(\"outlook.live.com\") {\n  /* Hide advertisement sidebar. */\n  .GssDD {\n    display: none;\n  }\n}\n",
     "usercssData": {
       "name": "Outlook",
       "namespace": "github.com/openstyles/stylus",
-      "version": "1.0.0",
+      "version": "2.0.0",
       "description": "Blocks the ad sidebar in Outlook to avoid it taking up space because I'm a horrible person.",
       "author": "huy-vuong"
     },
     "author": "huy-vuong",
     "description": "Blocks the ad sidebar in Outlook to avoid it taking up space because I'm a horrible person.",
     "name": "Outlook",
-    "updateDate": 1654416729547,
-    "_id": "920feff5-1577-40de-88bf-57e5c3836c72",
-    "_rev": 1662632836711,
+    "updateDate": 1741086255551,
+    "_id": "f5e76656-b428-4658-a9b2-18613803c6ec",
+    "_rev": 1741086255551,
     "id": 8
   },
   {
     "enabled": true,
-    "installDate": 1654416757949,
+    "installDate": 1741086279574,
     "sections": [
       {
         "code": ""
@@ -308,14 +296,14 @@
     "author": "huy-vuong",
     "description": "Applies a full dark theme to all of the StackEdit UI",
     "name": "StackEdit",
-    "updateDate": 1654416757949,
-    "_id": "a566c0e2-053b-4f52-9734-392422158075",
-    "_rev": 1662632836712,
+    "updateDate": 1741086279574,
+    "_id": "d2f116fb-f59c-49ad-92d9-5e6509847b59",
+    "_rev": 1741086279574,
     "id": 9
   },
   {
     "enabled": true,
-    "installDate": 1654416766420,
+    "installDate": 1741086292672,
     "sections": [
       {
         "code": ""
@@ -332,9 +320,9 @@
     "author": "Me",
     "description": "Use Roboto for WhatsApp Web's body fonts instead of Arial.",
     "name": "WhatsApp Web",
-    "updateDate": 1654416797725,
-    "_id": "45eeab15-b56a-4889-ac88-d150e784eb4a",
-    "_rev": 1662632836712,
+    "updateDate": 1741086292672,
+    "_id": "83308433-82f4-4ce5-87a5-2095c56b76d4",
+    "_rev": 1741086292672,
     "id": 10
   }
 ]

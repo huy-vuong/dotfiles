@@ -172,6 +172,9 @@ dv () {
     fi
 }
 
+# Visual Studio Code
+alias code="/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code"
+
 # Z Shell
 alias z='source ~/.zshrc'
 alias zz='code ~/.zshrc; source ~/.zshrc'

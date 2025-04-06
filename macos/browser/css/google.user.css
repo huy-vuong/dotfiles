@@ -2,19 +2,32 @@
 @name           Google
 @namespace      github.com/openstyles/stylus
 @version        1.0.0
-@description    Use Roboto for Google's body fonts instead of Arial.
+@description    Avoid Arial for Google search's fonts.
 @author         huy-vuong
 ==/UserStyle== */
 
-@-moz-document domain("www.google.com")
-{
-  .g, body, html, input, .std, h1
-  {
+@-moz-document domain("www.google.com") {
+  .g,
+  body,
+  html,
+  input,
+  .std,
+  h1,
+  select {
     font-family: Roboto, Arial, sans-serif;
   }
 
-  .gsfi, .lst
-  {
+  .gsfi,
+  .lst,
+  .p4wth,
+  .wHYlTd,
+  .e9EfHf {
     font-family: Roboto, Arial, sans-serif;
+  }
+
+  .MBeuO,
+  .tNxQIb {
+    font-family: "Google Sans", Arial, sans-serif;
+    font-weight: 500;
   }
 }

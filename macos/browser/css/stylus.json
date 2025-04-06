@@ -165,20 +165,20 @@
         "code": ""
       }
     ],
-    "sourceCode": "/* ==UserStyle==\n@name           Google\n@namespace      github.com/openstyles/stylus\n@version        1.0.0\n@description    Use Roboto for Google's body fonts instead of Arial.\n@author         huy-vuong\n==/UserStyle== */\n\n@-moz-document domain(\"www.google.com\")\n{\n  .g, body, html, input, .std, h1\n  {\n    font-family: Roboto, Arial, sans-serif;\n  }\n\n  .gsfi, .lst\n  {\n    font-family: Roboto, Arial, sans-serif;\n  }\n}\n",
+    "sourceCode": "/* ==UserStyle==\n@name           Google\n@namespace      github.com/openstyles/stylus\n@version        1.0.0\n@description    Avoid Arial for Google's fonts.\n@author         huy-vuong\n==/UserStyle== */\n\n@-moz-document domain(\"www.google.com\")\n{\n  .g, body, html, input, .std, h1, select\n  {\n    font-family: Roboto, Arial, sans-serif;\n  }\n\n  .gsfi, .lst, .p4wth, .wHYlTd,  .e9EfHf\n  {\n    font-family: Roboto, Arial, sans-serif;\n  }\n    \n  .MBeuO, .tNxQIb {\n    font-family: \"Google Sans\", Arial, sans-serif;\n    font-weight: 500;\n  }\n}\n",
     "usercssData": {
       "name": "Google",
       "namespace": "github.com/openstyles/stylus",
       "version": "1.0.0",
-      "description": "Use Roboto for Google's body fonts instead of Arial.",
+      "description": "Avoid Arial for Google's fonts.",
       "author": "huy-vuong"
     },
     "author": "huy-vuong",
-    "description": "Use Roboto for Google's body fonts instead of Arial.",
+    "description": "Avoid Arial for Google's fonts.",
     "name": "Google",
-    "updateDate": 1741085279974,
+    "updateDate": 1743968461984,
     "_id": "4452f03b-da81-445b-9e2a-c1faf6d5df52",
-    "_rev": 1741085279974,
+    "_rev": 1743968461984,
     "id": 4
   },
   {

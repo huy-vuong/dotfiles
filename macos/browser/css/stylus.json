@@ -213,7 +213,7 @@
         "code": ""
       }
     ],
-    "sourceCode": "/* ==UserStyle==\n@name           Logix Account Summary\n@namespace      github.com/openstyles/stylus\n@version        1.0.0\n@description    Styling for the Logix website for the Account Summary page\n@author         huy-vuong\n==/UserStyle== */\n\n@-moz-document url-prefix(\"https://olb.logixbanking.com/User/MainAccounts/List\") {\n  /* Savings and Checking */\n  tr.Data:nth-child(7) > td:nth-child(6) > logix-currency:nth-child(1) > span:nth-child(1),\n  tr.Data:nth-child(8) > td:nth-child(6) > logix-currency:nth-child(1) > span:nth-child(1),\n  tr.Data:nth-child(9) > td:nth-child(6) > logix-currency:nth-child(1) > span:nth-child(1),\n  tr.Total:nth-child(10) > td:nth-child(2) > logix-currency:nth-child(1) > span:nth-child(1) {\n    color: #669933;\n  }\n\n  tr.Data:nth-child(16) > td:nth-child(6) > span:nth-child(1),\n  td.Number:nth-child(3) > span:nth-child(1){\n    color: rgb(255, 96, 58);\n  }\n}\n",
+    "sourceCode": "/* ==UserStyle==\n@name           Logix Account Summary\n@namespace      github.com/openstyles/stylus\n@version        1.0.0\n@description    Styling for the Logix website for the Account Summary page\n@author         huy-vuong\n==/UserStyle== */\n\n@-moz-document url-prefix(\"https://olb.logixbanking.com/User/MainAccounts/List\") {\n  /* Savings and Checking */\n  tr.Data:nth-child(7) > td:nth-child(6) > logix-currency:nth-child(1) > span:nth-child(1),\n  tr.Data:nth-child(8) > td:nth-child(6) > logix-currency:nth-child(1) > span:nth-child(1),\n  tr.Data:nth-child(9) > td:nth-child(6) > logix-currency:nth-child(1) > span:nth-child(1),\n  tr.Total:nth-child(10) > td:nth-child(2) > logix-currency:nth-child(1) > span:nth-child(1) {\n    color: #669933;\n  }\n\n  tr.Data:nth-child(17) > td:nth-child(6) > span:nth-child(1),\n  td.Number:nth-child(3) > span:nth-child(1){\n    color: rgb(255, 96, 58);\n  }\n}\n",
     "usercssData": {
       "name": "Logix Account Summary",
       "namespace": "github.com/openstyles/stylus",
@@ -224,9 +224,9 @@
     "author": "huy-vuong",
     "description": "Styling for the Logix website for the Account Summary page",
     "name": "Logix Account Summary",
-    "updateDate": 1741086211367,
+    "updateDate": 1744009619936,
     "_id": "5ef7ea13-a057-40dd-a894-637641130ae8",
-    "_rev": 1741086211367,
+    "_rev": 1744010211225,
     "id": 6
   },
   {

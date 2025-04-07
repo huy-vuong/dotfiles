@@ -6,17 +6,30 @@
 @author         huy-vuong
 ==/UserStyle== */
 
-@-moz-document url-prefix("https://olb.logixbanking.com/User/MainAccounts/List") {
+@-moz-document url-prefix("https://olb.logixbanking.com/User/MainAccounts/List")
+{
   /* Savings and Checking */
-  tr.Data:nth-child(7) > td:nth-child(6) > logix-currency:nth-child(1) > span:nth-child(1),
-  tr.Data:nth-child(8) > td:nth-child(6) > logix-currency:nth-child(1) > span:nth-child(1),
-  tr.Data:nth-child(9) > td:nth-child(6) > logix-currency:nth-child(1) > span:nth-child(1),
-  tr.Total:nth-child(10) > td:nth-child(2) > logix-currency:nth-child(1) > span:nth-child(1) {
+  tr.Data:nth-child(7)
+    > td:nth-child(6)
+    > logix-currency:nth-child(1)
+    > span:nth-child(1),
+  tr.Data:nth-child(8)
+    > td:nth-child(6)
+    > logix-currency:nth-child(1)
+    > span:nth-child(1),
+  tr.Data:nth-child(9)
+    > td:nth-child(6)
+    > logix-currency:nth-child(1)
+    > span:nth-child(1),
+  tr.Total:nth-child(10)
+    > td:nth-child(2)
+    > logix-currency:nth-child(1)
+    > span:nth-child(1) {
     color: #669933;
   }
 
-  tr.Data:nth-child(16) > td:nth-child(6) > span:nth-child(1),
-  td.Number:nth-child(3) > span:nth-child(1){
+  tr.Data:nth-child(17) > td:nth-child(6) > span:nth-child(1),
+  td.Number:nth-child(3) > span:nth-child(1) {
     color: rgb(255, 96, 58);
   }
 }
